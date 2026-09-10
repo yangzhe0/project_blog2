@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Astro build output and generated types
+dist/
+.astro/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Vercel local project metadata
+.vercel/
+
+# Logs
+*.log
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
