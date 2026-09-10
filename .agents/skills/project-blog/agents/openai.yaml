@@ -1,0 +1,7 @@
+interface:
+  display_name: "Project Blog"
+  short_description: "按 AstroPaper 规范撰写、配图并发布中文博客文章"
+  default_prompt: "Use $project-blog to create or edit a Chinese post using this repository's AstroPaper format."
+
+policy:
+  allow_implicit_invocation: true
