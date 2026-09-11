@@ -2,12 +2,12 @@
 title: 'OpenClaw 从 0 到 1：个人 AI 助手部署与维护实战'
 pubDatetime: 2026-06-10
 description: '基于 Ubuntu 24.04 工作站与局域网 GPU 服务器，从 0 到 1 部署 OpenClaw 个人 AI 助手：涵盖 Gateway 配置、Telegram 接入、Obsidian MCP 联动与长期记忆系统。'
-ogImage: './image/260610_01.svg'
+ogImage: './image/260610_01.png'
 tags: [AI Agent, OpenClaw, Ollama, Ubuntu, Work]
 draft: false
 ---
 
-![OpenClaw 从 0 到 1：个人 AI 助手部署与维护实战](./image/260610_01.svg)
+![OpenClaw 从 0 到 1：个人 AI 助手部署与维护实战](./image/260610_01.png)
 
 > 本文记录在工位 Ubuntu 24.04 开发机上从 0 到 1 部署 **OpenClaw** 个人 AI 助手的完整工程落地过程。目标是打造一个既能在本地终端、网页端直接交互，又能通过 Telegram 移动端随叫随到，并且深度打通 Obsidian 个人知识库与远端 GPU 大模型的全天候智能助手。
 

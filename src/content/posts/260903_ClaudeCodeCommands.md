@@ -2,12 +2,12 @@
 title: 'Claude Code 命令速查：斜杠命令、全局参数与子命令'
 pubDatetime: 2026-09-03
 description: '基于本机 Claude Code 2.1.259 实测整理的一份完整命令速查，覆盖 110 条斜杠命令、52 个全局参数与 18 个子命令。'
-ogImage: './image/260903_01.svg'
+ogImage: './image/260903_01.png'
 tags: [Claude Code, AI, Tutorial]
 draft: false
 ---
 
-![Claude Code 命令速查：斜杠命令、全局参数与子命令](./image/260903_01.svg)
+![Claude Code 命令速查：斜杠命令、全局参数与子命令](./image/260903_01.png)
 
 > 记命令是件反人性的事。所以这一篇，我把 Claude Code 从「怎么启动」到「有哪些斜杠命令、参数、子命令」全部整理成一张可查的表。
 

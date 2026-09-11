@@ -2,12 +2,12 @@
 title: 'ScholarPulse：本地优先的学术情报监测与自动化流水线'
 pubDatetime: 2026-06-15
 description: '一条面向个人知识库的本地优先学术情报流水线：从 arXiv 定向检索、去重、Ollama 结构化中文研判，到 Obsidian 原子落盘与 Telegram 自动投递。'
-ogImage: './image/260615_01.svg'
+ogImage: './image/260615_01.png'
 tags: [AI Agent, Academic, Workflow, Ollama, Work]
 draft: false
 ---
 
-![ScholarPulse：本地优先的学术情报监测与自动化流水线](./image/260615_01.svg)
+![ScholarPulse：本地优先的学术情报监测与自动化流水线](./image/260615_01.png)
 
 > 在信息爆炸时代，跟踪前沿论文（如 AI Agent、RAG、MCP）往往让人疲惫不堪。`ScholarPulse` 是一条面向个人知识库的**本地优先（Local-first）学术情报监测流水线**。它的核心定位不是让 AI 随意“泛泛写个摘要”，而是将检索、去重、结构化研判、原子落盘、总索引维护与多端消息投递拆解为一条**确定、可测试、可审计**的工程生产链路。
 

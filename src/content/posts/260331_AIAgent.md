@@ -2,12 +2,12 @@
 title: 'AI Agent 工程实践：从原理到落地的完整指南'
 pubDatetime: 2026-03-31
 description: '拆解 AI Agent 的架构、记忆系统、工具调用与多智能体协作，结合真实工程踩坑经验，从理论到生产落地的完整记录。'
-ogImage: './image/260331_01.jpg'
+ogImage: './image/260331_01.png'
 tags: [AI, Engineering]
 draft: false
 ---
 
-![AI Agent 工程实践：从原理到落地的完整指南](./image/260331_01.jpg)
+![AI Agent 工程实践：从原理到落地的完整指南](./image/260331_01.png)
 
 > 本文约 10,000 字，适合有一定 LLM 使用经验、想系统了解 Agent 工程的读者。
 
@@ -590,5 +590,3 @@ Agent 是当前 AI 工程里最难落地、也最值得投入的方向。难不�
 如果你刚开始，建议从一个真实的、小范围的、能量化效果的问题开始。先让它能用，再让它好用，最后才考虑让它更强大。
 
 ---
-
-*Photo by [Alex Knight](https://unsplash.com/@agk42) on [Unsplash](https://unsplash.com)*

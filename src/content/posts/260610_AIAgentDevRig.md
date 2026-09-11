@@ -2,12 +2,12 @@
 title: '个人 AI Agent 研发环境搭建：Ubuntu 工作站与 RTX 5090 双机工作流'
 pubDatetime: 2026-06-10
 description: '构建个人/实验室专属的 AI Agent 研发环境：本地 Ubuntu 24.04 开发机 + 远端 Threadripper & RTX 5090 算力机，打通 MCP、Obsidian、Ollama 与大模型工程链路。'
-ogImage: './image/260610_02.svg'
+ogImage: './image/260610_02.png'
 tags: [Ubuntu, GPU, Ollama, AI Agent, Work]
 draft: false
 ---
 
-![个人 AI Agent 研发环境搭建：Ubuntu 工作站与 RTX 5090 双机工作流](./image/260610_02.svg)
+![个人 AI Agent 研发环境搭建：Ubuntu 工作站与 RTX 5090 双机工作流](./image/260610_02.png)
 
 > 对于大模型与 AI Agent 开发者而言，在单台机器上既跑重型推理又搞日常开发，常常会遇到显存抢占、风扇轰鸣与系统卡顿等痛点。本文分享一套**“本地轻量开发工作站 + 远端专用 GPU 算力机”**的双机协作环境搭建方案，覆盖系统参数配置、Ollama 局域网服务化、MCP 工具层挂载与全链路联调。
 

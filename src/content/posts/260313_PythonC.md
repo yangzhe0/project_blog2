@@ -2,12 +2,12 @@
 title: 'Python 与 C 混编：当下还有必要吗？'
 pubDatetime: 2026-03-13
 description: '从AI推理到嵌入式，Python慢在哪、C补在哪，ctypes/Cython/CPython扩展/pybind11四种混编方式全对比。'
-ogImage: './image/260313_01.jpg'
+ogImage: './image/260313_01.png'
 tags: [Python, C]
 draft: false
 ---
 
-![Python 与 C 混编：当下还有必要吗？](./image/260313_01.jpg)
+![Python 与 C 混编：当下还有必要吗？](./image/260313_01.png)
 
 如果你用 Python 写过稍微严肃一点的程序，大概率踢过这道墙：**跑得太慢了**。
 
@@ -392,6 +392,4 @@ print(c.count)   # 1
 Python 是入口，C/C++ 是引擎——知道怎么打开引擎盖，你才算真的会开这辆车。
 
 
-![python c programming code](./image/260313_02.jpg)
-
-*Photo by [Hitesh Choudhary](https://unsplash.com/@hiteshchoudhary) on [Unsplash](https://unsplash.com)*
+![Python 通过接口驱动 C/C++ 性能引擎](./image/260313_02.png)

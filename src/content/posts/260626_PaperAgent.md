@@ -2,12 +2,12 @@
 title: 'PaperAgent：面向课题组论文库的本地 RAG 智能体'
 pubDatetime: 2026-06-26
 description: '面向科研论文库的本地知识库智能体实战：基于 Streamlit + MinerU + Ollama + BGE-M3 + FAISS，实现高精度检索、确定性路由与跨文献深度对比。'
-ogImage: './image/260626_01.svg'
+ogImage: './image/260626_01.png'
 tags: [AI Agent, RAG, Streamlit, Research, Work]
 draft: false
 ---
 
-![PaperAgent：面向课题组论文库的本地 RAG 智能体](./image/260626_01.svg)
+![PaperAgent：面向课题组论文库的本地 RAG 智能体](./image/260626_01.png)
 
 > 在科研场景中，通用的 ChatGPT 往往无法直接处理课题组内部专属的 PDF 论文库，且容易出现胡编乱造、无法精确溯源等问题。`PaperAgent` 是一个完全**本地化部署的科研论文知识库 RAG 智能体**，旨在将复杂的学术论文解析为可结构化检索、支持跨篇比对、且每一条结论皆可严密追溯到原文切片的科研助手。
 

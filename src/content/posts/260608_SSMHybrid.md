@@ -2,12 +2,12 @@
 title: 'Transformer 之后：线性注意力、SSM/Mamba 与混合架构'
 pubDatetime: 2026-06-08
 description: 'Transformer 之后的故事——从 O(N²) 复杂度瓶颈出发，系统解析线性注意力、SSM/Mamba、RWKV 与 Hybrid 混合架构演进全景。'
-ogImage: './image/260608_01.svg'
+ogImage: './image/260608_01.png'
 tags: [AI, DeepLearning, Transformer, Mamba]
 draft: false
 ---
 
-![Transformer 之后：线性注意力、SSM/Mamba 与混合架构](./image/260608_01.svg)
+![Transformer 之后：线性注意力、SSM/Mamba 与混合架构](./image/260608_01.png)
 
 > Transformer 把序列建模推到了顶峰，也把 $O(n^2)$ 的计算代价显式化了。当上下文越拉越长、端侧/具身对延迟越来越敏感、训练成本持续走高时，Transformer 的瓶颈就成了核心矛盾。破局思路主要分为四条主线：**线性注意力（Linear Attention）**、**状态空间模型（SSM / Mamba）**、**线性 RNN（RWKV）** 以及 **混合架构（Hybrid）**。
 

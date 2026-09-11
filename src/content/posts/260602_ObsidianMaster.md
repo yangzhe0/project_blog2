@@ -2,12 +2,12 @@
 title: 'Obsidian 小白到大师'
 pubDatetime: 2026-06-02
 description: '从第一个 Vault 到稳定输出闭环的 Obsidian 入门路线。'
-ogImage: './image/260602_02.svg'
+ogImage: './image/260602_02.png'
 tags: [Obsidian, Productivity]
 draft: false
 ---
 
-![Obsidian 小白到大师](./image/260602_02.svg)
+![Obsidian 小白到大师](./image/260602_02.png)
 
 > 这不是一篇把 Obsidian 讲复杂的教程，而是一条从零搭建知识系统的路线：先能用，再逐步变成稳定输出的工作流。
 

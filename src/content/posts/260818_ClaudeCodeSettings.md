@@ -2,12 +2,12 @@
 title: 'Claude Code 安装后必做的 9 项设置'
 pubDatetime: 2026-08-18
 description: 'Claude Code 安装后的 9 项核心调优指南：从交互体验、状态栏、全局记忆到多代理协作与后台模型升级。'
-ogImage: './image/260818_01.svg'
+ogImage: './image/260818_01.png'
 tags: [Claude Code, AI, Tutorial]
 draft: false
 ---
 
-![Claude Code 安装后必做的 9 项设置](./image/260818_01.svg)
+![Claude Code 安装后必做的 9 项设置](./image/260818_01.png)
 
 > 安装好 Claude Code 之后，默认配置虽然能跑，但有很多体验和效率上的痛点——比如回答过于精简、没有实时状态栏、每次新会话都要重新交代偏好等。本文整理了 9 项开箱必做的核心设置，助你打造极致顺手的主力 AI 编程环境。
 

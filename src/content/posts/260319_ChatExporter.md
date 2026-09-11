@@ -11,8 +11,7 @@ draft: false
 
 前几天需要把 Trae 里的一些对话导出来，翻了半天没找到现成的工具，干脆自己写了一个。
 
-![developer terminal code screen](./image/260319_02.jpg)
-*Photo by [Chris Ried](https://unsplash.com/@cdr6934) on [Unsplash](https://unsplash.com)*
+![Trae 对话本地导出为 HTML、Markdown 和 JSON](./image/260319_02.png)
 
 ## 这玩意能干嘛
 

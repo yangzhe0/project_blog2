@@ -2,12 +2,12 @@
 title: '我看开了之学术修行'
 pubDatetime: 2026-03-22
 description: '研究生生存黑话：一场关于"学术修行"的集体致郁'
-ogImage: './image/260322_01.jpg'
+ogImage: './image/260322_01.png'
 tags: [随笔, 研究生]
 draft: false
 ---
 
-![我看开了之学术修行](./image/260322_01.jpg)
+![我看开了之学术修行](./image/260322_01.png)
 
 如果说本科生还在象牙塔里做梦，那么研究生就是在这个塔里负责搬砖、打扫卫生并试图向塔外的人证明：这砖头搬得非常有"创新性"。
 
@@ -17,9 +17,7 @@ draft: false
 
 导师最爱说："这个方向很有前景。" **真相：** 意思是他也没做过，甚至还没想好怎么做，所以找个倒霉蛋（你）来试试错。如果你做出来了，那是他指导有方；如果你没做出来，那是你缺乏主动性。
 
-![professor lecture hall academic](./image/260322_02.jpg)
-
-*Photo by [Austin](https://unsplash.com/@austin_7792) on [Unsplash](https://unsplash.com)*
+![导师指向未知方向，研究生负责试错](./image/260322_02.png)
 
 ## 2. 关于"学术前沿"
 
@@ -35,9 +33,7 @@ draft: false
 
 Reviewer 1 说你的实验很扎实，Reviewer 3 说你的逻辑很清晰，而 Reviewer 2 会说："虽然作者做了很多工作，但我认为这篇文章的灵魂不对。"
 
-![peer review rejection letter desk](./image/260322_03.jpg)
-
-*Photo by [Flavio Amiel](https://unsplash.com/@flavioamiel) on [Unsplash](https://unsplash.com)*
+![Reviewer 2 Boss 战](./image/260322_03.png)
 
 **应对策略：** 所谓的"回复审稿意见"，本质上就是一场高情商的博弈。你心里想的是"你到底看没看懂？"，笔下写的是"审稿人的建议非常深刻，令我茅塞顿开，已根据建议进行深度重构"。
 
@@ -72,8 +68,6 @@ Reviewer 1 说你的实验很扎实，Reviewer 3 说你的逻辑很清晰，而 
 
 你以为你在研究真理，其实你只是在证明：即使是在科学的圣殿里，人也可以过得像个在跑步机上疯狂奔跑却原地不动的哈姆雷特。
 
-![graduation cap diploma ceremony](./image/260322_04.jpg)
-
-*Photo by [K Studios](https://unsplash.com/@kstudios) on [Unsplash](https://unsplash.com)*
+![走下学术跑步机](./image/260322_04.png)
 
 **毕竟，学历是假的，只有那种"我看开了"的眼神是真的。**

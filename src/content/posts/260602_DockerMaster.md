@@ -2,12 +2,12 @@
 title: 'Docker 小白到大师'
 pubDatetime: 2026-06-02
 description: '从第一条命令到容器化真实项目的 Docker 入门路线。'
-ogImage: './image/260602_01.svg'
+ogImage: './image/260602_01.png'
 tags: [Docker, Tutorial]
 draft: false
 ---
 
-![Docker 小白到大师](./image/260602_01.svg)
+![Docker 小白到大师](./image/260602_01.png)
 
 > 这不是一篇概念堆叠的 Docker 笔记，而是一条可以照着做的学习路线：从第一条命令，到容器化一个真实项目。
 

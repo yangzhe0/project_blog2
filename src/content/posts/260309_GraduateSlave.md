@@ -47,8 +47,7 @@ draft: false
 
 凌晨 2 点：回宿舍，路上只有路灯和几个同样拖着步子的同学。
 
-![exhausted tired student desk night](./image/260309_01.jpg)
-*Photo by [Yen Vu](https://unsplash.com/@yenvu2410) on [Unsplash](https://unsplash.com)*
+![凌晨两点的研究生循环](./image/260309_01.png)
 
 ---
 
@@ -170,6 +169,4 @@ draft: false
 是每一个熬着的人。
 
 
-![university student studying library](./image/260309_02.jpg)
-
-*Photo by [Dominic Kurniawan Suryaputra](https://unsplash.com/@d_ks11) on [Unsplash](https://unsplash.com)*
+![熬着的研究生](./image/260309_02.png)

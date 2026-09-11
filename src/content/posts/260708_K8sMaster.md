@@ -2,12 +2,12 @@
 title: 'K8S 小白到大师：从单机容器到集群编排'
 pubDatetime: 2026-07-08
 description: '从单机 Docker 的局限出发，系统理解 Kubernetes 的架构原理、核心对象（Pod/Deployment/Service）、高频排障命令与实战部署。'
-ogImage: './image/260708_01.svg'
+ogImage: './image/260708_01.png'
 tags: [Kubernetes, Docker, DevOps, Notes]
 draft: false
 ---
 
-![K8S 小白到大师：从单机容器到集群编排](./image/260708_01.svg)
+![K8S 小白到大师：从单机容器到集群编排](./image/260708_01.png)
 
 > 这篇笔记不是死记硬背 K8s 概念，而是建立一条清晰的主线：为什么需要 K8s、它由哪些组件组成、最常用的对象是什么、如何部署一个最小 Web 应用，以及排障时先看哪里。
 
