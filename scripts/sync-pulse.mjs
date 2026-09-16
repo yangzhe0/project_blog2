@@ -18,7 +18,6 @@ import { execSync } from "node:child_process";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const VAULT_DIR = process.env.SCHOLAR_PULSE_DIR || "/home/y/文档/Obsidian Vault/科研/ScholarPulse";
 const PULSE_OUT = join(ROOT, "src/content/pulse");
-const PULSE_IDX = join(PULSE_OUT, "index.md");      // 总索引详情页
 const INDEX_POST = join(ROOT, "src/content/posts/260616_ScholarPulseLog.md");
 const MANIFEST = join(ROOT, ".pulse-manifest.json");
 const NO_PUSH = process.argv.includes("--no-push");
@@ -113,70 +112,52 @@ async function main() {
     writeFileSync(join(PULSE_OUT, d.file), frontmatter + convertObsidian(body));
   }
 
-  // 删除 vault 里已不存在的页面(防御, 正常不该发生); index.md 保留
+  // 删除 vault 里已不存在的页面(防御, 正常不该发生)
   for (const name of await fs.readdir(PULSE_OUT)) {
-    if (name === "index.md") continue;
-    if (name.endsWith(".md") && name !== "index.md" && !days.some(d => d.file === name)) {
+    if (!name.endsWith(".md")) continue;
+    if (!days.some(d => d.file === name)) {
       const stale = join(PULSE_OUT, name);
       await fs.rm(stale);
       changed.push("删:" + name);
     }
   }
 
-  // ---------- 索引页 ----------
+  // ---------- 总表(日期 + 摘要 + 标题, 直接铺进列表入口文章) ----------
   const today = new Date().toISOString().slice(0, 10);
   const months = {};
   for (const d of days) (months[d.date.slice(0, 7)] ||= []).push(d);
-  const monthRows = Object.keys(months).sort().reverse().map(m => {
-    const items = months[m].sort((a, b) => b.date.localeCompare(a.date));
-    const lines = items.map(d => {
-      let desc = "";
+  let totalPapers = 0;
+  const rows = [];
+  for (const m of Object.keys(months).sort().reverse()) {
+    rows.push(`### ${m}`);
+    rows.push("");
+    rows.push("| 日期 | 摘要 | 标题 |");
+    rows.push("| --- | --- | --- |");
+    for (const d of months[m].sort((a, b) => b.date.localeCompare(a.date))) {
+      let papers = 0, highs = 0, tops = [];
       try {
         const { body } = splitFrontmatter(readFileSync(join(dir, d.file), "utf8"));
-        const { papers, highs, tops } = digest(body);
-        desc = `${papers} 篇 / ${highs} 高推荐` + (tops[0] ? ` — ${tops[0].slice(0, 46)}…` : "");
+        ({ papers, highs, tops } = digest(body));
+        totalPapers += papers;
       } catch {}
-      return `| [${d.date}](/pulse/${d.date}/) | ${desc} |`;
-    });
-    return `### ${m}\n\n| 日期 | 速览 |\n| --- | --- |\n${lines.join("\n")}`;
-  });
-  const totalPapers = days.reduce((s, d) => {
-    try {
-      const { body } = splitFrontmatter(readFileSync(join(dir, d.file), "utf8"));
-      return s + digest(body).papers;
-    } catch { return s; }
-  }, 0);
-  const idxFrontmatter = [
-    "---",
-    `title: 'ScholarPulse 运行实录 · 总索引'`,
-    `pubDatetime: ${today}T00:00:00+08:00`,
-    `description: '100 天学术简报索引：每日论文速览与深度研判，按月份归档。'`,
-    "tags: [ScholarPulse, 学术监测, 索引]",
-    "---",
-    "",
-  ].join("\n");
-  const idxBody = [
-    `**ScholarPulse** 从 2026-06-09 开始每日运行：监控 arXiv 上 AI Agent / MCP 方向的论文，Ollama 生成结构化中文研判。这是全部 ${days.length} 天运行结果的索引，共收录 **${totalPapers} 篇**论文。`,
-    "",
-    `> 原理与构建过程见博客文章《[ScholarPulse](/posts/260615_scholarpulse/)》。这里只看产出。`,
-    "",
-    monthRows.join("\n\n"),
-    "",
-    "*本索引由同步脚本自动重建，数据源为 Obsidian Vault，页面内容以 vault 最新版为准。*",
-    "",
-  ].join("\n");
-  writeFileSync(PULSE_IDX, idxFrontmatter + idxBody);
-  changed.push("index.md");
+      const summary = `${papers} 篇 / ${highs} 高推荐` + (tops[0] ? ` — ${tops[0].slice(0, 40)}…` : "");
+      rows.push(`| [${d.date}](/pulse/${d.date}/) | ${summary} | ${tops[0] || "—"} |`);
+    }
+    rows.push("");
+  }
+  const table = rows.join("\n");
 
-  // ---------- 列表唯一入口文章 ----------
+  // ---------- 列表唯一入口文章: 正文里直接铺总表(一次跳转) ----------
   const postBody = [
-    "那篇讲原理的文章（《ScholarPulse》）发布后，它一直在后台跑。到今天，**${days.length} 天、${totalPapers} 篇**论文研判全部落盘。",
+    `ScholarPulse 在后台每天跑：盯 arXiv 上 AI Agent / MCP 方向的论文，Ollama 出结构化中文研判，落盘、推送。从今天开始，它是 2026-06-09 开跑的全部 **${days.length} 天、${totalPapers} 篇**论文研判，下面是完整清单。`,
     "",
-    `运行实录在这里：[**ScholarPulse 运行实录 · 总索引**](/pulse/index/)`,
+    "表格里点日期就直接进当天那篇，每篇有结论、方法、价值判断和英文原摘要。列表里你看到的这篇文章，就是这张表——不会再多套一层索引页。",
     "",
-    "点进去按月份翻，每天一个入口，每篇论文有结论、内容、价值判断和原始摘要。内容每天自动同步——你在 vault 里改过的版本，当晚就会发上线。",
+    table,
     "",
-    `> 生成于 ${today}，${days.length} 个日报页面全部校验通过。`,
+    `*由同步脚本每天重建；数据源为 Obsidian Vault 里的原始日报，你在 vault 里改过的版本，当晚 20:00 就会重新发布。最后更新：${today}。*`,
+    "",
+    "> 原理与构建过程见《[ScholarPulse](/posts/260615_scholarpulse/)》。这里只看产出。",
     "",
   ].join("\n");
   const post = [
