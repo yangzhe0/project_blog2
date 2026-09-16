@@ -1,0 +1,112 @@
+---
+import { type CollectionEntry, getCollection, render } from "astro:content";
+import PostLayout from "@/layouts/PostLayout.astro";
+import Header from "@/components/Header.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import Main from "@/components/Main.astro";
+import Footer from "@/components/Footer.astro";
+import Tag from "@/components/Tag.astro";
+import { slugifyStr } from "@/utils/slugify";
+import config from "@/config";
+
+// frontmatter 里 pubDatetime 固定 +08:00 -> UTC+8 的日期串
+export function dayOf(d: Date) {
+  const t = new Date(d.getTime() + 8 * 3600 * 1000);
+  return t.toISOString().slice(0, 10);
+}
+
+export async function getStaticPaths() {
+  const posts = await getCollection("pulse");
+  const daily = posts.filter(p => !p.data.tags.includes("索引"));
+  const sorted = [...daily].sort((a, b) =>
+    b.data.pubDatetime.valueOf() - a.data.pubDatetime.valueOf()
+  );
+  return sorted.map((entry, i) => ({
+    params: { date: dayOf(entry.data.pubDatetime) },
+    props: {
+      entry,
+      prevDay: sorted[i + 1] && { date: dayOf(sorted[i + 1].data.pubDatetime) },
+      nextDay: sorted[i - 1] && { date: dayOf(sorted[i - 1].data.pubDatetime) },
+    },
+  }));
+}
+
+type Props = {
+  entry: CollectionEntry<"pulse">;
+  prevDay: { date: string } | null;
+  nextDay: { date: string } | null;
+};
+
+const { entry, prevDay, nextDay } = Astro.props;
+const { title, description, pubDatetime, tags } = entry.data;
+const { Content } = await render(entry);
+---
+
+<PostLayout
+  title={`${title} | ${config.site.title}`}
+  {description}
+  {pubDatetime}
+>
+  <Header />
+
+  <Breadcrumb />
+
+  <Main pageTitle={title} pageDesc={description}>
+    <article
+      id="article"
+      class:list={[
+        "mt-4 w-full",
+        "app-prose max-w-app",
+        "prose-pre:bg-(--shiki-light-bg) dark:prose-pre:bg-(--shiki-dark-bg)",
+      ]}
+    >
+      <Content />
+    </article>
+
+    <hr class="my-8 border-dashed" />
+
+    <ul class="mt-4 mb-8 flex flex-wrap gap-4 sm:my-8">
+      {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} size="sm" />)}
+    </ul>
+
+    <nav
+      class:list={[
+        "flex flex-col gap-2 sm:flex-row sm:justify-between",
+        { hidden: !prevDay && !nextDay },
+      ]}
+    >
+      {prevDay ? (
+        <a
+          href={`/pulse/${prevDay.date}/`}
+          class:list={[
+            "group flex max-w-[48%] items-center gap-2 rounded-lg border border-border p-3 no-underline transition hover:border-accent hover:text-accent",
+          ]}
+        >
+          <span aria-hidden="true" class="text-muted-foreground">&larr;</span>
+          <span class="min-w-0">
+            <span class="block text-xs text-muted-foreground">更早一天</span>
+            <span class="block truncate text-sm font-medium">{prevDay.date}</span>
+          </span>
+        </a>
+      ) : (
+        <span aria-hidden="true" />
+      )}
+      {nextDay && (
+        <a
+          href={`/pulse/${nextDay.date}/`}
+          class:list={[
+            "group flex max-w-[48%] items-center justify-end gap-2 rounded-lg border border-border p-3 no-underline transition hover:border-accent hover:text-accent",
+          ]}
+        >
+          <span class="min-w-0 text-right">
+            <span class="block text-xs text-muted-foreground">更近一天</span>
+            <span class="block truncate text-sm font-medium">{nextDay.date}</span>
+          </span>
+          <span aria-hidden="true" class="text-muted-foreground">&rarr;</span>
+        </a>
+      )}
+    </nav>
+  </Main>
+
+  <Footer />
+</PostLayout>

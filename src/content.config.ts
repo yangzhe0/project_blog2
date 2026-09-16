@@ -4,6 +4,7 @@ import { glob } from "astro/loaders";
 import config from "@/config";
 
 export const BLOG_PATH = "src/content/posts";
+export const PULSE_PATH = "src/content/pulse";
 
 const posts = defineCollection({
   loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: `./${BLOG_PATH}` }),
@@ -34,4 +35,14 @@ const pages = defineCollection({
   }),
 });
 
-export const collections = { posts, pages };
+const pulse = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: `./${PULSE_PATH}` }),
+  schema: z.object({
+    pubDatetime: z.date(),
+    title: z.string(),
+    description: z.string(),
+    tags: z.array(z.string()).default(["ScholarPulse"]),
+  }),
+});
+
+export const collections = { posts, pages, pulse };
