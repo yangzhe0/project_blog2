@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">按场景选装备</title>
+  <desc id="desc">以选装备为中心，连接六种工作场景与对应工具的横版信息图。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5F2FF"/>
+      <stop offset="0.5" stop-color="#F1FBFF"/>
+      <stop offset="1" stop-color="#FFF7E9"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#705CF6"/>
+      <stop offset="1" stop-color="#8B6EF8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#35405F" flood-opacity="0.11"/>
+    </filter>
+    <filter id="coreShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#5A45C8" flood-opacity="0.24"/>
+    </filter>
+    <marker id="arrow1" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M0 0L10 5L0 10Z" fill="#7C67F4"/></marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M0 0L10 5L0 10Z" fill="#F07C8F"/></marker>
+    <marker id="arrow3" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M0 0L10 5L0 10Z" fill="#E7A33D"/></marker>
+    <marker id="arrow4" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M0 0L10 5L0 10Z" fill="#32AFC2"/></marker>
+    <marker id="arrow5" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M0 0L10 5L0 10Z" fill="#4EA778"/></marker>
+    <marker id="arrow6" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M0 0L10 5L0 10Z" fill="#5F8DEB"/></marker>
+    <style>
+      .cn{font-family:"Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif}
+      .card-title{font-size:19px;font-weight:700;fill:#252B43}
+      .tool{font-size:16px;font-weight:700;letter-spacing:.2px}
+      .num{font-size:16px;font-weight:800;fill:#fff;text-anchor:middle;dominant-baseline:middle}
+      .line{fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+
+  <!-- airy background -->
+  <rect width="1280" height="760" rx="28" fill="url(#bg)"/>
+  <path d="M0 146C157 78 273 118 394 77C516 36 580 11 705 48" fill="none" stroke="#FFFFFF" stroke-width="46" opacity=".45"/>
+  <path d="M1280 628C1127 690 1028 658 907 704C806 742 742 758 641 760" fill="none" stroke="#FFF" stroke-width="58" opacity=".45"/>
+  <g opacity=".5">
+    <circle cx="52" cy="61" r="7" fill="#F3B14C"/><circle cx="77" cy="61" r="3.5" fill="#7C67F4"/>
+    <circle cx="1207" cy="682" r="7" fill="#4DC1A1"/><circle cx="1233" cy="682" r="3.5" fill="#F07C8F"/>
+    <path d="M1178 91h30M1193 76v30" stroke="#7C67F4" stroke-width="5" stroke-linecap="round"/>
+    <path d="M53 677h27M66.5 663.5v27" stroke="#55A4E9" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- heading -->
+  <g class="cn" text-anchor="middle">
+    <text x="640" y="49" font-size="15" font-weight="700" fill="#786E9A" letter-spacing="3">TOOLKIT MAP</text>
+    <text x="640" y="82" font-size="31" font-weight="800" fill="#27233E">按场景选装备</text>
+  </g>
+
+  <!-- radiating connectors -->
+  <g opacity=".92">
+    <path class="line" d="M553 298C502 247 464 192 404 145" stroke="#7C67F4" marker-end="url(#arrow1)"/>
+    <circle cx="527" cy="270" r="4.5" fill="#7C67F4"/>
+    <path class="line" d="M512 380C469 380 438 379 400 379" stroke="#F07C8F" marker-end="url(#arrow2)"/>
+    <circle cx="472" cy="380" r="4.5" fill="#F07C8F"/>
+    <path class="line" d="M553 462C503 512 470 565 418 612" stroke="#E7A33D" marker-end="url(#arrow3)"/>
+    <circle cx="526" cy="490" r="4.5" fill="#E7A33D"/>
+    <path class="line" d="M727 298C777 247 814 192 874 145" stroke="#32AFC2" marker-end="url(#arrow4)"/>
+    <circle cx="753" cy="270" r="4.5" fill="#32AFC2"/>
+    <path class="line" d="M768 380C811 380 842 379 880 379" stroke="#4EA778" marker-end="url(#arrow5)"/>
+    <circle cx="808" cy="380" r="4.5" fill="#4EA778"/>
+    <path class="line" d="M727 462C777 512 810 565 862 612" stroke="#5F8DEB" marker-end="url(#arrow6)"/>
+    <circle cx="754" cy="490" r="4.5" fill="#5F8DEB"/>
+  </g>
+
+  <!-- left cards -->
+  <g class="cn" filter="url(#shadow)">
+    <g>
+      <rect x="72" y="98" width="330" height="112" rx="22" fill="#fff"/>
+      <rect x="72" y="98" width="7" height="112" rx="3.5" fill="#7C67F4"/>
+      <circle cx="110" cy="130" r="18" fill="#7C67F4"/><text class="num" x="110" y="131">1</text>
+      <text class="card-title" x="140" y="136">画架构图 / 时序图</text>
+      <rect x="99" y="160" width="118" height="31" rx="15.5" fill="#EEEAFE"/>
+      <text class="tool" x="158" y="181" text-anchor="middle" fill="#6650DC">archify</text>
+      <text x="228" y="180" font-size="14" font-weight="700" fill="#A19AB8">或</text>
+      <rect x="251" y="160" width="132" height="31" rx="15.5" fill="#EEEAFE"/>
+      <text class="tool" x="317" y="181" text-anchor="middle" fill="#6650DC">diagram-design</text>
+    </g>
+    <g>
+      <rect x="38" y="324" width="360" height="112" rx="22" fill="#fff"/>
+      <rect x="38" y="324" width="7" height="112" rx="3.5" fill="#F07C8F"/>
+      <circle cx="76" cy="356" r="18" fill="#F07C8F"/><text class="num" x="76" y="357">2</text>
+      <text class="card-title" x="106" y="362">写完稿，润色成自然人话</text>
+      <rect x="65" y="386" width="132" height="31" rx="15.5" fill="#FFF0F3"/>
+      <text class="tool" x="131" y="407" text-anchor="middle" fill="#D65F75">humanizer</text>
+      <path d="M333 385c9 0 16 7 16 16s-7 16-16 16h-53" fill="none" stroke="#F7C6CF" stroke-width="3" stroke-linecap="round"/>
+      <path d="M281 410l-8 7 8 7" fill="none" stroke="#F07C8F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <rect x="88" y="550" width="328" height="112" rx="22" fill="#fff"/>
+      <rect x="88" y="550" width="7" height="112" rx="3.5" fill="#E7A33D"/>
+      <circle cx="126" cy="582" r="18" fill="#E7A33D"/><text class="num" x="126" y="583">3</text>
+      <text class="card-title" x="156" y="588">Office 文档喂给 Agent</text>
+      <rect x="115" y="612" width="142" height="31" rx="15.5" fill="#FFF5DF"/>
+      <text class="tool" x="186" y="633" text-anchor="middle" fill="#C68321">markitdown</text>
+      <g transform="translate(350 609)" fill="none" stroke="#E7A33D" stroke-width="2.5" stroke-linejoin="round">
+        <path d="M-19 0h23l11 11v24h-34z"/><path d="M4 0v11h11M-11 20H7M-11 27H4"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- right cards -->
+  <g class="cn" filter="url(#shadow)">
+    <g>
+      <rect x="878" y="98" width="330" height="112" rx="22" fill="#fff"/>
+      <rect x="1201" y="98" width="7" height="112" rx="3.5" fill="#32AFC2"/>
+      <circle cx="916" cy="130" r="18" fill="#32AFC2"/><text class="num" x="916" y="131">4</text>
+      <text class="card-title" x="946" y="136">多个 Agent key，一处切换</text>
+      <rect x="905" y="160" width="128" height="31" rx="15.5" fill="#E8F8FA"/>
+      <text class="tool" x="969" y="181" text-anchor="middle" fill="#238FA0">cc-switch</text>
+      <g transform="translate(1152 175)" fill="none" stroke="#32AFC2" stroke-width="2.6" stroke-linecap="round">
+        <path d="M-25-8h37l-7-7M12-8l-7 7M14 8h-37l7 7M-23 8l7-7"/>
+      </g>
+    </g>
+    <g>
+      <rect x="882" y="324" width="360" height="112" rx="22" fill="#fff"/>
+      <rect x="1235" y="324" width="7" height="112" rx="3.5" fill="#4EA778"/>
+      <circle cx="920" cy="356" r="18" fill="#4EA778"/><text class="num" x="920" y="357">5</text>
+      <text class="card-title" x="950" y="362">让 Agent 真正操作网页</text>
+      <rect x="909" y="386" width="218" height="31" rx="15.5" fill="#EAF7F0"/>
+      <text class="tool" x="1018" y="407" text-anchor="middle" fill="#34875C">chrome-devtools-mcp</text>
+      <g transform="translate(1187 401)" fill="none" stroke="#4EA778" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="-23" y="-15" width="45" height="30" rx="5"/><path d="M-23-6h45M-15-11h.1M-8-11h.1"/>
+      </g>
+    </g>
+    <g>
+      <rect x="864" y="550" width="328" height="112" rx="22" fill="#fff"/>
+      <rect x="1185" y="550" width="7" height="112" rx="3.5" fill="#5F8DEB"/>
+      <circle cx="902" cy="582" r="18" fill="#5F8DEB"/><text class="num" x="902" y="583">6</text>
+      <text class="card-title" x="932" y="588">多轮对话，上下文爆炸</text>
+      <rect x="891" y="612" width="160" height="31" rx="15.5" fill="#EBF2FF"/>
+      <text class="tool" x="971" y="633" text-anchor="middle" fill="#4777D0">context-mode</text>
+      <g transform="translate(1136 627)" fill="none" stroke="#5F8DEB" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M-25-15h39a7 7 0 017 7v13a7 7 0 01-7 7h-20l-9 8v-8h-10a7 7 0 01-7-7V-8a7 7 0 017-7z"/>
+        <path d="M-13-3H9M-13 4H3"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- center hub -->
+  <g class="cn" text-anchor="middle" filter="url(#coreShadow)">
+    <circle cx="640" cy="380" r="128" fill="#fff" opacity=".7"/>
+    <circle cx="640" cy="380" r="112" fill="url(#core)"/>
+    <circle cx="640" cy="380" r="90" fill="none" stroke="#fff" stroke-opacity=".2" stroke-width="2" stroke-dasharray="5 8"/>
+    <g transform="translate(640 331)" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-25 6L0-8 25 6 0 20z"/>
+      <path d="M-25 6v24L0 44l25-14V6M0 20v24"/>
+      <path d="M-11-1L14 13" opacity=".65"/>
+    </g>
+    <text x="640" y="409" font-size="31" font-weight="800" fill="#fff" letter-spacing="2">选装备</text>
+    <text x="640" y="438" font-size="14" font-weight="600" fill="#EDE9FF" letter-spacing="1">先看场景，再挑工具</text>
+  </g>
+
+  <!-- tiny footer cue -->
+  <g class="cn" text-anchor="middle">
+    <rect x="548" y="714" width="184" height="28" rx="14" fill="#fff" opacity=".7"/>
+    <text x="640" y="733" font-size="12" font-weight="700" fill="#8A83A5" letter-spacing="1.5">ONE SCENE · ONE TOOL</text>
+  </g>
+</svg>
