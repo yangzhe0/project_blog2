@@ -136,7 +136,7 @@ async function main() {
         const { papers, highs, tops } = digest(body);
         desc = `${papers} 篇 / ${highs} 高推荐` + (tops[0] ? ` — ${tops[0].slice(0, 46)}…` : "");
       } catch {}
-      return `| [${d.date}](./${d.date}/) | ${desc} |`;
+      return `| [${d.date}](/pulse/${d.date}/) | ${desc} |`;
     });
     return `### ${m}\n\n| 日期 | 速览 |\n| --- | --- |\n${lines.join("\n")}`;
   });
