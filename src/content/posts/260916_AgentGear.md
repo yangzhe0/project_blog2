@@ -1,15 +1,11 @@
 ---
-title: '本周 Agent 装备盘点：技能、插件、工具，一波全给你'
+title: '自用 Agent 装备盘点分享'
 pubDatetime: 2026-09-16
-description: '技能、插件、工具三类 Agent 生态装备，16 个开源项目逐个点评。数据截至 2026-09-16 GitHub 实时 Star，非编。'
+description: '技能、插件、工具三类 Agent 生态装备，20 个开源项目逐个点评。数据截至 2026-09-16 GitHub 实时 Star，非编。'
 tags: [AI Tools, Agent, GitHub, MCP, Skills]
 ---
 
-最近 GitHub 上 Agent 生态这块，真的火得有点离谱。
-
-我把自己 Stars 里攒的三类东西——**Skills（技能）**、**Plugins（插件）**、**Tools（工具+提示词）**——翻了个底朝天，挑出 16 个真正能用上手的，给你挨个说。
-
-数据都是 2026 年 9 月 16 号现拉的，Star 数和描述全是 GitHub API 原文，不是我编的。
+Agent 生态越来越完善了，我把自己 Stars 里攒的三类东西——**Skills（技能）**、**Plugins（插件）**、**Tools（工具+提示词）**——来分享一下。
 
 ![Agent 生态三层装备分工：Skills 教方法、Plugins 给能力、工具做底座、提示词是弹药](./image/260916_01.svg)
 
