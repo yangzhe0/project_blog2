@@ -4,9 +4,9 @@ description: "关于杨哲：天文科研、数据处理与 AI Agent 应用开�
 ---
 
 <div class="about-hero">
-  <img class="about-avatar" src="/avatar.jpg" alt="杨哲" width="112" height="112" loading="eager" />
+  <img class="about-avatar" src="/avatar.jpg" alt="杨哲" width="132" height="132" loading="eager" />
   <div class="about-id">
-    <h2 class="about-name">杨哲 <span class="about-name-zh">Zhe Yang</span></h2>
+    <h2 class="about-name">杨哲 <span class="about-name-zh">Jones Ray</span></h2>
     <p class="about-tag">上海工程技术大学 · 光学工程硕士 · 中科院上海天文台联合培养</p>
     <p class="about-sub">天文科研、科研数据处理与 AI Agent 应用开发</p>
   </div>
