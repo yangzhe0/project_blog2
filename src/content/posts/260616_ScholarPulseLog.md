@@ -5,6 +5,8 @@ description: '100 天学术监测的完整产出索引：每日论文速览、�
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
 
+每天自动生成的论文研判，全部在这里。原理与构建过程见《[ScholarPulse](/posts/260615_scholarpulse/)》。
+
 ### 2026-09
 
 | 日期 | 总结摘要 | 标题 |
@@ -225,6 +227,4 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 | [2026-06-09](/pulse/2026-06-09/) | PCMA通过学习协调的代理特定偏好，有效提升多目标多智能体强化学习中的团队性能与权衡协调。 | [Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning](http://arxiv.org/abs/2606.14693v1) |
 | [2026-06-09](/pulse/2026-06-09/) | AgentSpec通过标准化接口和模块化设计，揭示了具身代理性能由组件交互效应而非孤立模块强度决定。 | [AgentSpec: Understanding Embodied Agent Scaffolds Through Controlled Composition](http://arxiv.org/abs/2606.14674v1) |
 
-
-*由同步脚本每天重建；数据源为 Obsidian Vault 里的 100 天日报，你在 vault 里改过的版本，当晚 20:00 就会重新发布。最后更新：2026-09-17。*
 

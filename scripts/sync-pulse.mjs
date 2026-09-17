@@ -158,11 +158,11 @@ async function main() {
   }
   const table = rows.join("\n");
 
-  // ---------- 列表唯一入口文章: 正文直接就是总表(一次跳转) ----------
+  // ---------- 列表唯一入口文章: 一句导语 + 总表(一次跳转) ----------
   const postBody = [
-    table,
+    "每天自动生成的论文研判，全部在这里。原理与构建过程见《[ScholarPulse](/posts/260615_scholarpulse/)》。",
     "",
-    `*由同步脚本每天重建；数据源为 Obsidian Vault 里的 ${days.length} 天日报，你在 vault 里改过的版本，当晚 20:00 就会重新发布。最后更新：${today}。*`,
+    table,
     "",
   ].join("\n");
   const post = [
