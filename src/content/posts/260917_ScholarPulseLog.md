@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-09-17](/pulse/2026-09-17/) | EvolveTrade 将 LLM 交易代理的系统提示视为可演化的文本策略，通过决策轨迹与组合反馈持续修订，在多个市场制度下通常优于固定策略基线。 | [EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents](https://arxiv.org/abs/2609.17632) |
+| [2026-09-17](/pulse/2026-09-17/) | 文本字幕（caption）可作为第一人称长视频中可复用的情景记忆，在多数模型上优于直接视频问答。 | [CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video](https://arxiv.org/abs/2609.17688) |
 | [2026-09-16](/pulse/2026-09-16/) | 智能体社会中，即使诚实且有能力的智能体在现有通信机制下也常无法达成满意结果，需要一种超越个体"个人约束"的"社会约束框架"来保障协作安全。 | [Agentic Societies Need a Social Harness](http://arxiv.org/abs/2609.17527v1) |
 | [2026-09-16](/pulse/2026-09-16/) | FlashVector 是一个跨层模型服务栈优化 Agent 系统，在 Unity 广告平台部署后实现了最高 2 倍吞吐量和 1.98 倍延迟加速。 | [FlashVector: Agent for Hierarchical Model Serving Stack Optimization](http://arxiv.org/abs/2609.17391v1) |
 | [2026-09-15](/pulse/2026-09-15/) | ZGCM-1 是一个完全开源的 7B 稠密基础模型，通过结合内部推理与外部工具调用，在数学推理和智能体搜索任务上可与参数量大数十倍的前沿模型竞争。 | [ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search](https://arxiv.org/abs/2609.13356) |
