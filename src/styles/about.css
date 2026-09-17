@@ -1,13 +1,13 @@
 .about-hero {
   display: flex;
   align-items: center;
-  gap: 1.25rem;
-  margin-bottom: 1.75rem;
+  gap: 1.25rem;          /* 头像和右边文字的间距 */
+  margin-bottom: 1.5rem; /* 卡片和下面正文的间隔 */
   flex-wrap: wrap;
 }
 .about-avatar {
-  width: 132px;
-  height: 132px;
+  width: 150px;          /* 头像大小 */
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   flex: 0 0 auto;
