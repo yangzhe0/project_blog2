@@ -60,13 +60,20 @@ function splitFrontmatter(md) {
   return { meta, body: m[2] };
 }
 
-/** 内容摘要: 论文数 / 高推荐数 / 前两条标题 */
-function digest(body) {
-  const papers = (body.match(/^### \d+\./gm) || []).length;
-  const highs = (body.match(/^\|\s*\d+\s*\|.*\|\s*高\s*\|/gm) || []).length;
-  const tops = (body.match(/^### \d+\. (.+)$/gm) || []).slice(0, 2)
-    .map(l => l.replace(/^### \d+\. /, "").trim());
-  return { papers, highs, tops };
+/** 解析当日每篇论文: 标题 / 来源链接 / 一句话结论(原文) */
+function papersOf(body) {
+  const out = [];
+  for (const b of body.split(/^### \d+\. /m).slice(1)) {
+    const title = b.split("\n", 1)[0].trim();
+    const urlM = b.match(/\*\*来源\*\*[:：]\s*\[[^\]]*\]\(([^)\s]+)\)/);
+    const conclM = b.match(/#### 一句话结论\s*\n+(\S[^\n]*)/);
+    out.push({
+      title,
+      url: (urlM?.[1] || "").trim(),
+      concl: (conclM?.[1] || "").trim(),
+    });
+  }
+  return out;
 }
 
 // ---------- 同步 ----------
@@ -96,10 +103,11 @@ async function main() {
     if (prev[d.date]?.hash === hash) continue;
     changed.push(d.date);
     const { body } = splitFrontmatter(content);
-    const { papers, highs, tops } = digest(body);
+    const papers = papersOf(body);
     const title = `ScholarPulse 日报 ${d.date}`;
-    const description = `${d.date} 学术简报：${papers} 篇论文入选，${highs} 篇高推荐。` +
-      (tops[0] ? `头条：${tops[0].slice(0, 60)}…` : "");
+    const description = papers[0]
+      ? `${d.date} 学术简报：${papers.length} 篇。${papers[0].concl}`
+      : `${d.date} 学术简报。`;
     const frontmatter = [
       "---",
       `title: '${title.replace(/'/g, "’")}'`,
@@ -122,42 +130,39 @@ async function main() {
     }
   }
 
-  // ---------- 总表(日期 + 摘要 + 标题, 直接铺进列表入口文章) ----------
+  // ---------- 总表(直接来自日报原文: 日期 | 总结摘要 | 标题) ----------
   const today = new Date().toISOString().slice(0, 10);
   const months = {};
   for (const d of days) (months[d.date.slice(0, 7)] ||= []).push(d);
   let totalPapers = 0;
+  const esc = s => s.replace(/&/g, "&amp;").replace(/\|/g, "\\|");
   const rows = [];
   for (const m of Object.keys(months).sort().reverse()) {
     rows.push(`### ${m}`);
     rows.push("");
-    rows.push("| 日期 | 摘要 | 标题 |");
+    rows.push("| 日期 | 总结摘要 | 标题 |");
     rows.push("| --- | --- | --- |");
     for (const d of months[m].sort((a, b) => b.date.localeCompare(a.date))) {
-      let papers = 0, highs = 0, tops = [];
+      let papers = [];
       try {
         const { body } = splitFrontmatter(readFileSync(join(dir, d.file), "utf8"));
-        ({ papers, highs, tops } = digest(body));
-        totalPapers += papers;
+        papers = papersOf(body);
       } catch {}
-      const summary = `${papers} 篇 / ${highs} 高推荐` + (tops[0] ? ` — ${tops[0].slice(0, 40)}…` : "");
-      rows.push(`| [${d.date}](/pulse/${d.date}/) | ${summary} | ${tops[0] || "—"} |`);
+      totalPapers += papers.length;
+      for (const p of papers) {
+        const tl = p.url ? `[${esc(p.title)}](${p.url})` : esc(p.title);
+        rows.push(`| [${d.date}](/pulse/${d.date}/) | ${esc(p.concl)} | ${tl} |`);
+      }
     }
     rows.push("");
   }
   const table = rows.join("\n");
 
-  // ---------- 列表唯一入口文章: 正文里直接铺总表(一次跳转) ----------
+  // ---------- 列表唯一入口文章: 正文直接就是总表(一次跳转) ----------
   const postBody = [
-    `ScholarPulse 在后台每天跑：盯 arXiv 上 AI Agent / MCP 方向的论文，Ollama 出结构化中文研判，落盘、推送。从今天开始，它是 2026-06-09 开跑的全部 **${days.length} 天、${totalPapers} 篇**论文研判，下面是完整清单。`,
-    "",
-    "表格里点日期就直接进当天那篇，每篇有结论、方法、价值判断和英文原摘要。列表里你看到的这篇文章，就是这张表——不会再多套一层索引页。",
-    "",
     table,
     "",
-    `*由同步脚本每天重建；数据源为 Obsidian Vault 里的原始日报，你在 vault 里改过的版本，当晚 20:00 就会重新发布。最后更新：${today}。*`,
-    "",
-    "> 原理与构建过程见《[ScholarPulse](/posts/260615_scholarpulse/)》。这里只看产出。",
+    `*由同步脚本每天重建；数据源为 Obsidian Vault 里的 ${days.length} 天日报，你在 vault 里改过的版本，当晚 20:00 就会重新发布。最后更新：${today}。*`,
     "",
   ].join("\n");
   const post = [
