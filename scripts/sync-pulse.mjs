@@ -18,7 +18,9 @@ import { execSync } from "node:child_process";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const VAULT_DIR = process.env.SCHOLAR_PULSE_DIR || "/home/y/文档/Obsidian Vault/科研/ScholarPulse";
 const PULSE_OUT = join(ROOT, "src/content/pulse");
-const INDEX_POST = join(ROOT, "src/content/posts/260616_ScholarPulseLog.md");
+// 入口文章: 文件名里的日期与 pubDatetime 统一; 每次同步由脚本重命名为当天日期
+const today = new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 10);
+const INDEX_POST = join(ROOT, "src/content/posts", `${today.slice(2).replace(/-/g, "")}_ScholarPulseLog.md`);
 const MANIFEST = join(ROOT, ".pulse-manifest.json");
 const NO_PUSH = process.argv.includes("--no-push");
 const DAY_RE = /^(\d{4})-(\d{2})-(\d{2})\.md$/;
@@ -130,8 +132,17 @@ async function main() {
     }
   }
 
+  // 清理旧日期命名的入口文章(今天已生成新日期文件)
+  const postsDir = join(ROOT, "src/content/posts");
+  const currentName = `${today.slice(2).replace(/-/g, "")}_ScholarPulseLog.md`;
+  for (const name of await fs.readdir(postsDir)) {
+    if (name.endsWith("_ScholarPulseLog.md") && name !== currentName) {
+      await fs.rm(join(postsDir, name));
+      changed.push("重命名旧入口文章:" + name);
+    }
+  }
+
   // ---------- 总表(直接来自日报原文: 日期 | 总结摘要 | 标题) ----------
-  const today = new Date().toISOString().slice(0, 10);
   const months = {};
   for (const d of days) (months[d.date.slice(0, 7)] ||= []).push(d);
   let totalPapers = 0;
@@ -189,7 +200,7 @@ async function main() {
   console.log(`[sync-pulse] 变更 ${changed.length} 项: ${changed.slice(0, 12).join(", ")}${changed.length > 12 ? `…(+${changed.length - 12})` : ""}`);
   console.log("[sync-pulse] 新/改页面:", changed.filter(c => c.startsWith("20")).join(", ") || "(无)");
   if (NO_PUSH) return;
-  g("git add src/content/pulse src/content/posts/260616_ScholarPulseLog.md .pulse-manifest.json");
+  g("git add src/content/pulse src/content/posts .pulse-manifest.json");
   try {
     g("git commit -m 'pulse: 同步 ScholarPulse 日报 " + today + "（" + changed.filter(c => c.startsWith("20")).length + " 新/改）'");
   } catch (e) {
