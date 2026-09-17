@@ -12,7 +12,7 @@
   object-fit: cover;
   object-position: 50% 40%;  /* 人物脸偏左下时，用这个往人脸那边偏 */
   flex: 0 0 auto;
-  margin: 0;             /* 清零主题 prose 给 img 的 32px 上下外边距 */
+  margin: 0 !important;  /* 压过主题 prose 给 img 的 margin:32px */
   border: 1px solid rgba(120, 120, 140, 0.25);
   box-shadow: 0 6px 24px rgba(60, 60, 90, 0.15);
 }
