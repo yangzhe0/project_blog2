@@ -3,12 +3,14 @@ title: "关于我"
 description: "关于杨哲：天文科研、数据处理与 AI Agent 应用开发。"
 ---
 
-你好，我是 **杨哲（Zhe Yang）** 👋
-
-目前就读于 **上海工程技术大学光学工程专业**，并在 **中国科学院上海天文台联合培养**。
-
-我的工作主要游走在 **天文科研、科研数据处理与 AI Agent 应用开发**之间。  
-平时既会和星表、历表、天体测量数据打交道，也喜欢折腾 Python、Linux、RAG、MCP 和各种自动化工具。
+<div class="about-hero">
+  <img class="about-avatar" src="/avatar.jpg" alt="杨哲" width="112" height="112" loading="eager" />
+  <div class="about-id">
+    <h2 class="about-name">杨哲 <span class="about-name-zh">Zhe Yang</span></h2>
+    <p class="about-tag">上海工程技术大学 · 光学工程硕士 · 中科院上海天文台联合培养</p>
+    <p class="about-sub">天文科研、科研数据处理与 AI Agent 应用开发</p>
+  </div>
+</div>
 
 ## 🔭 研究方向
 

@@ -1,0 +1,55 @@
+.about-hero {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.75rem;
+  flex-wrap: wrap;
+}
+.about-avatar {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: 0 0 auto;
+  border: 1px solid color-mix(in oklab, var(--foreground) 18%, transparent);
+  box-shadow: 0 6px 24px color-mix(in oklab, var(--foreground) 12%, transparent);
+  background: var(--muted);
+}
+.about-id { min-width: 0; }
+.about-name {
+  margin: 0;
+  font-size: 1.55rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+.about-name-zh {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--muted-foreground);
+}
+.about-tag {
+  margin: 0.4rem 0 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--foreground);
+}
+.about-sub {
+  margin: 0.15rem 0 0;
+  font-size: 0.95rem;
+  color: var(--muted-foreground);
+}
+/* 隐藏 Main 组件自动输出的空标题与描述（已并入上方卡片） */
+.about-page > h1,
+.about-page > p.mt-2 {
+  display: none;
+}
+@media (max-width: 520px) {
+  .about-avatar { width: 84px; height: 84px; }
+  .about-hero { gap: 1rem; }
+  .about-name { font-size: 1.3rem; }
+}
