@@ -43,6 +43,10 @@
   font-size: 0.95rem;
   color: var(--muted-foreground);
 }
+/* 收紧 about 页小标题与上文（含头像卡片）的间距，覆盖主题 prose 的 48px */
+.about-page > h2 {
+  margin-top: 20px;
+}
 /* 隐藏 Main 组件自动输出的空标题与描述（已并入上方卡片） */
 .about-page > h1,
 .about-page > p.mt-2 {
