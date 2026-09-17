@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   gap: 1.25rem;          /* 头像和右边文字的间距 */
-  margin-bottom: 1.5rem; /* 卡片和下面正文的间隔 */
+  margin-bottom: 0;      /* 间距交给下方 h2 的 margin-top 统一控制 */
   flex-wrap: wrap;
 }
 .about-avatar {
