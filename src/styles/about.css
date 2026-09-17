@@ -8,12 +8,13 @@
 .about-avatar {
   width: 150px;          /* 头像大小 */
   height: 150px;
-  border-radius: 50%;
+  border-radius: 50%;    /* 改成 0 就是方形，改小一点是圆角方 */
   object-fit: cover;
+  object-position: 50% 40%;  /* 人物脸偏左下时，用这个往人脸那边偏 */
   flex: 0 0 auto;
-  border: 1px solid color-mix(in oklab, var(--foreground) 18%, transparent);
-  box-shadow: 0 6px 24px color-mix(in oklab, var(--foreground) 12%, transparent);
-  background: var(--muted);
+  margin: 0;             /* 清零主题 prose 给 img 的 32px 上下外边距 */
+  border: 1px solid rgba(120, 120, 140, 0.25);
+  box-shadow: 0 6px 24px rgba(60, 60, 90, 0.15);
 }
 .about-id { min-width: 0; }
 .about-name {
