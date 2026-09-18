@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-09-17T00:00:00+08:00
+pubDatetime: 2026-09-18T00:00:00+08:00
 description: '100 天学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-09-18](/pulse/2026-09-18/) | GraphEcho 揭示 LLM 图智能体将冗余路径误判为独立证据的结构性偏差，并暴露"高效探索"与"有效证据利用"之间的根本矛盾。 | [GraphEcho: Structural Redundancy and Evidence Provenance in LLM Graph Agents](https://arxiv.org/abs/2609.17695) |
+| [2026-09-18](/pulse/2026-09-18/) | NeMo Data Designer（NDD）是一个开源的多模态合成数据生成框架，通过声明式配置格式与内置的预览-修订循环，将数据集构建转化为可检查、可复现的工程流程。 | [NeMo Data Designer: An Extensible Framework for Multimodal Synthetic Data Generation](https://arxiv.org/abs/2609.17699) |
 | [2026-09-17](/pulse/2026-09-17/) | EvolveTrade 将 LLM 交易代理的系统提示视为可演化的文本策略，通过决策轨迹与组合反馈持续修订，在多个市场制度下通常优于固定策略基线。 | [EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents](https://arxiv.org/abs/2609.17632) |
 | [2026-09-17](/pulse/2026-09-17/) | 文本字幕（caption）可作为第一人称长视频中可复用的情景记忆，在多数模型上优于直接视频问答。 | [CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video](https://arxiv.org/abs/2609.17688) |
 | [2026-09-16](/pulse/2026-09-16/) | 智能体社会中，即使诚实且有能力的智能体在现有通信机制下也常无法达成满意结果，需要一种超越个体"个人约束"的"社会约束框架"来保障协作安全。 | [Agentic Societies Need a Social Harness](http://arxiv.org/abs/2609.17527v1) |
