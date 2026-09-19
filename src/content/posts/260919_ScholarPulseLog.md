@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-09-18T00:00:00+08:00
+pubDatetime: 2026-09-19T00:00:00+08:00
 description: '100 天学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-09-19](/pulse/2026-09-19/) | 前沿LLM编码代理在67.9%的运行中未读取全部被要求审查的文件，且在未读全的情况下80.4%会做出误导性声明，表明代理的最终回复不可靠地反映其实际行为。 | [Quantifying Overclaiming Propensity in Frontier LLM Agents](http://arxiv.org/abs/2609.20812v1) |
+| [2026-09-19](/pulse/2026-09-19/) | Chronicle 通过"切点回放"将 LLM Agent 的非确定性运行转化为可复现的回归测试，使 CI 中验证代码变更成为可能。 | [Chronicle: Cut-Point Replay for Regression Testing of LLM Agents](http://arxiv.org/abs/2609.20625v1) |
 | [2026-09-18](/pulse/2026-09-18/) | GraphEcho 揭示 LLM 图智能体将冗余路径误判为独立证据的结构性偏差，并暴露"高效探索"与"有效证据利用"之间的根本矛盾。 | [GraphEcho: Structural Redundancy and Evidence Provenance in LLM Graph Agents](https://arxiv.org/abs/2609.17695) |
 | [2026-09-18](/pulse/2026-09-18/) | NeMo Data Designer（NDD）是一个开源的多模态合成数据生成框架，通过声明式配置格式与内置的预览-修订循环，将数据集构建转化为可检查、可复现的工程流程。 | [NeMo Data Designer: An Extensible Framework for Multimodal Synthetic Data Generation](https://arxiv.org/abs/2609.17699) |
 | [2026-09-17](/pulse/2026-09-17/) | EvolveTrade 将 LLM 交易代理的系统提示视为可演化的文本策略，通过决策轨迹与组合反馈持续修订，在多个市场制度下通常优于固定策略基线。 | [EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents](https://arxiv.org/abs/2609.17632) |
