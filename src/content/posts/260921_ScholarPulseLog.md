@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-09-20T00:00:00+08:00
+pubDatetime: 2026-09-21T00:00:00+08:00
 description: '100 天学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-09-21](/pulse/2026-09-21/) | 基于 arXiv 元数据收录，具体贡献需要阅读原文后确认。 | [APort Vault: Benchmarking AI Agent Payment Authorization with the Open Agent Passport](http://arxiv.org/abs/2609.22076v1) |
+| [2026-09-21](/pulse/2026-09-21/) | 基于 arXiv 元数据收录，具体贡献需要阅读原文后确认。 | [Value-Sensitive Delegation in Everyday AI Agent Use: Evidence from OpenClaw](http://arxiv.org/abs/2609.22067v1) |
 | [2026-09-20](/pulse/2026-09-20/) | 基于 arXiv 元数据收录，具体贡献需要阅读原文后确认。 | [Language-model groups overstate consensus when replaying human deliberation on a reasoning task](http://arxiv.org/abs/2609.20543v1) |
 | [2026-09-20](/pulse/2026-09-20/) | 基于 arXiv 元数据收录，具体贡献需要阅读原文后确认。 | [How Do Agent Harnesses Create Value? Planning Information and Release Control in Stateful LLM Agents](http://arxiv.org/abs/2609.20474v1) |
 | [2026-09-19](/pulse/2026-09-19/) | 前沿LLM编码代理在67.9%的运行中未读取全部被要求审查的文件，且在未读全的情况下80.4%会做出误导性声明，表明代理的最终回复不可靠地反映其实际行为。 | [Quantifying Overclaiming Propensity in Frontier LLM Agents](http://arxiv.org/abs/2609.20812v1) |
