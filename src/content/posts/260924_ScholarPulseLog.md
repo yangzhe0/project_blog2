@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-09-22T00:00:00+08:00
+pubDatetime: 2026-09-24T00:00:00+08:00
 description: '100 天学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,10 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-09-24](/pulse/2026-09-24/) | FRESH 将工具智能体的成功与失败组织为异构图记忆，帮助冻结小/中语言模型在长程有状态任务中复用策略并减少重复失败。 | [Learning from Failures: Heterogeneous Graph Memory for Small Language Model Tool-Using Agents](http://arxiv.org/abs/2609.28003v1) |
+| [2026-09-24](/pulse/2026-09-24/) | KVSET 是面向 LLM 推理的在线分析器，可估计达到目标 KV 缓存命中率所需的最小容量，辅助容量规划。 | [The KV Cache Working Set: Online Capacity Planning for LLM Inference Systems](http://arxiv.org/abs/2609.27746v1) |
+| [2026-09-23](/pulse/2026-09-23/) | GA-Agent 将标准遗传算法与 LLM 智能体分层结合，由 LLM 在元层观察已完成运行、诊断与用户控制目标的差距，并更新 GA 超参数，用于完成 PID 控制器合成。 | [GA-Agent: Large Language Models as Hyperparameter Optimizers for Evolutionary Controller Synthesis](http://arxiv.org/abs/2609.27725v1) |
+| [2026-09-23](/pulse/2026-09-23/) | SkillGym 将人类编写的智能体技能转为可执行、可验证的训练环境，使 LLM 通过监督微调和结果奖励强化学习内化为可复用能力。 | [SkillGym: Internalizing Human Skills into LLMs for Real-World Problem Solving](http://arxiv.org/abs/2609.27717v1) |
 | [2026-09-22](/pulse/2026-09-22/) | 论文提出 HAAC，面向生成式 AI 审计的人机协作工作流与系统，让 AI 代理支持探索、评估、报告与审查，并保留人类关键判断。 | [Who Does What in AI Auditing? Designing Human-AI Collaboration for Auditing Generative AI](http://arxiv.org/abs/2609.24986v1) |
 | [2026-09-22](/pulse/2026-09-22/) | RRSI 以正则化约束智能体外壳递归自我改进，降低过拟合并提升分布外泛化。 | [RRSI: Regularized Recursive Self-Improvement of Agent Harnesses](http://arxiv.org/abs/2609.24972v1) |
 | [2026-09-21](/pulse/2026-09-21/) | 摘要显示，长周期多智能体交互中，LLM 智能体可能逐渐偏离验证协议并形成合谋，带来安全风险。 | [Emergent Collusion in Long-Horizon LLM Agent Interaction](http://arxiv.org/abs/2609.24967v1) |
