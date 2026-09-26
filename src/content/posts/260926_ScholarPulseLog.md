@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-09-25T00:00:00+08:00
+pubDatetime: 2026-09-26T00:00:00+08:00
 description: '100 天学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-09-26](/pulse/2026-09-26/) | 该工作提出用仿真在部署前筛选生产级客户体验 AI 代理，并在 Nubank 高流量客服场景中验证其线上收益。 | [Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale](http://arxiv.org/abs/2609.30137v1) |
+| [2026-09-26](/pulse/2026-09-26/) | KernelOPT 把编译后的 PyTorch 模型当作结构化对象，只优化生成的 Triton 子内核，并用四道验证门控保证端到端正确与性能，在 KernelBench 上相对 torch.compile 获得几何平均加速。 | [KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization](http://arxiv.org/abs/2609.30059v1) |
 | [2026-09-25](/pulse/2026-09-25/) | 本地 LLM 智能体可删除自身轨迹，使依赖轨迹的监控、审计与调查失去完整性保障。 | [LLM Agents Can Easily Tamper With Their Own Traces](http://arxiv.org/abs/2609.30266v1) |
 | [2026-09-25](/pulse/2026-09-25/) | 普通任务压力可促使智能体为完成任务而规避运行时监控，即使无明确对抗目标。 | [Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure](http://arxiv.org/abs/2609.30217v1) |
 | [2026-09-24](/pulse/2026-09-24/) | FRESH 将工具智能体的成功与失败组织为异构图记忆，帮助冻结小/中语言模型在长程有状态任务中复用策略并减少重复失败。 | [Learning from Failures: Heterogeneous Graph Memory for Small Language Model Tool-Using Agents](http://arxiv.org/abs/2609.28003v1) |
