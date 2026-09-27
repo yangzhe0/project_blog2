@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-09-26T00:00:00+08:00
+pubDatetime: 2026-09-27T00:00:00+08:00
 description: '100 天学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-09-27](/pulse/2026-09-27/) | KREX 是共享 GPU 的并发内核基准测试运行时，以区域级独占保真、区域外并发，提升智能体测试吞吐。 | [KREX: Concurrent Kernel Benchmarking on Shared GPUs via Region-Granular Exclusivity](http://arxiv.org/abs/2609.30057v1) |
+| [2026-09-27](/pulse/2026-09-27/) | 多智能体系统中，抗欺骗能力取决于欺骗者比例而非智能体总数；增加智能体数量不足以防御，因为对手可随群体扩展。 | [How does Adversarial Influence Scale in Multi-Agent Systems?](http://arxiv.org/abs/2609.30028v1) |
 | [2026-09-26](/pulse/2026-09-26/) | 该工作提出用仿真在部署前筛选生产级客户体验 AI 代理，并在 Nubank 高流量客服场景中验证其线上收益。 | [Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale](http://arxiv.org/abs/2609.30137v1) |
 | [2026-09-26](/pulse/2026-09-26/) | KernelOPT 把编译后的 PyTorch 模型当作结构化对象，只优化生成的 Triton 子内核，并用四道验证门控保证端到端正确与性能，在 KernelBench 上相对 torch.compile 获得几何平均加速。 | [KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization](http://arxiv.org/abs/2609.30059v1) |
 | [2026-09-25](/pulse/2026-09-25/) | 本地 LLM 智能体可删除自身轨迹，使依赖轨迹的监控、审计与调查失去完整性保障。 | [LLM Agents Can Easily Tamper With Their Own Traces](http://arxiv.org/abs/2609.30266v1) |
