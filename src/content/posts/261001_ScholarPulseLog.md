@@ -1,18 +1,25 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-09-30T00:00:00+08:00
+pubDatetime: 2026-10-01T00:00:00+08:00
 description: '100 天学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
 
 每天自动生成的论文研判，全部在这里。原理与构建过程见《[ScholarPulse](/posts/260615_scholarpulse/)》。
 
+### 2026-10
+
+| 日期 | 总结摘要 | 标题 |
+| --- | --- | --- |
+| [2026-10-01](/pulse/2026-10-01/) | 基于 arXiv 元数据收录，具体贡献需要阅读原文后确认。 | [Skill-Based AI Agents for Power-System Studies](http://arxiv.org/abs/2609.40272v1) |
+| [2026-10-01](/pulse/2026-10-01/) | ScholarEvolve框架受人类从研究文献学习启发，自动汲取SOTA研究指导agent harness进化（固定底层语言模型），克服现有元编码方法探索受限与被动适应问题，实现主动终身进化，并在AppWorld与Tau2-Bench上显著提升任务表现。 | [Learning from Research: Toward Lifelong Agent Harness Evolution](http://arxiv.org/abs/2609.40169v1) |
+
 ### 2026-09
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
-| [2026-09-30](/pulse/2026-09-30/) | 基于 arXiv 元数据收录，具体贡献需要阅读原文后确认。 | [BITEM at the NTCIR-19 R2C2 Task: Predicting Confidence from Agentic RAG Pipeline Signals](http://arxiv.org/abs/2609.37993v1) |
-| [2026-09-30](/pulse/2026-09-30/) | 基于 arXiv 元数据收录，具体贡献需要阅读原文后确认。 | [KUPAS MASTER: Distilling the Tacit Expertise of Master Practitioners into Agent-Ready Experience Corpora](http://arxiv.org/abs/2609.37673v1) |
+| [2026-09-30](/pulse/2026-09-30/) | LLM智能体常无法忠实执行所声明规划，Planning-as-Routing让LLM声明四种模式并由确定性路由器分派至模式特定执行器，从而缩小声明-执行差距并提升任务成功率。 | [Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution](http://arxiv.org/abs/2609.38108v1) |
+| [2026-09-30](/pulse/2026-09-30/) | 通过角色训练植入恒定绝对风险厌恶（CARA），可使未对齐智能体更偏好与人类交易等安全策略，从而有望降低其造成灾难性伤害的风险。 | [Character Training for Risk-Averse Agents](http://arxiv.org/abs/2609.38093v1) |
 | [2026-09-27](/pulse/2026-09-27/) | KREX 是共享 GPU 的并发内核基准测试运行时，以区域级独占保真、区域外并发，提升智能体测试吞吐。 | [KREX: Concurrent Kernel Benchmarking on Shared GPUs via Region-Granular Exclusivity](http://arxiv.org/abs/2609.30057v1) |
 | [2026-09-27](/pulse/2026-09-27/) | 多智能体系统中，抗欺骗能力取决于欺骗者比例而非智能体总数；增加智能体数量不足以防御，因为对手可随群体扩展。 | [How does Adversarial Influence Scale in Multi-Agent Systems?](http://arxiv.org/abs/2609.30028v1) |
 | [2026-09-26](/pulse/2026-09-26/) | 该工作提出用仿真在部署前筛选生产级客户体验 AI 代理，并在 Nubank 高流量客服场景中验证其线上收益。 | [Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale](http://arxiv.org/abs/2609.30137v1) |
