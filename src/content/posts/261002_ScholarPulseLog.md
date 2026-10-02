@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-01T00:00:00+08:00
+pubDatetime: 2026-10-02T00:00:00+08:00
 description: '100 天学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-02](/pulse/2026-10-02/) | InterEvolve通过测试时进化奖励程序，使人形机器人无需重训练即可重用现有技能解决新的loco-manipulation任务，并从自身尝试中改进并保留所学。 | [InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation](http://arxiv.org/abs/2610.02196v1) |
+| [2026-10-02](/pulse/2026-10-02/) | SourceLearn通过持续来源模型，将智能体对权威来源的重复使用从反复访问转为可复用来源特定能力学习，多数设置优于检索与记忆基线。 | [From Knowledge Access to Source Learning: Developing Source-Specific Competence](http://arxiv.org/abs/2610.02150v1) |
 | [2026-10-01](/pulse/2026-10-01/) | 基于 arXiv 元数据收录，具体贡献需要阅读原文后确认。 | [Skill-Based AI Agents for Power-System Studies](http://arxiv.org/abs/2609.40272v1) |
 | [2026-10-01](/pulse/2026-10-01/) | ScholarEvolve框架受人类从研究文献学习启发，自动汲取SOTA研究指导agent harness进化（固定底层语言模型），克服现有元编码方法探索受限与被动适应问题，实现主动终身进化，并在AppWorld与Tau2-Bench上显著提升任务表现。 | [Learning from Research: Toward Lifelong Agent Harness Evolution](http://arxiv.org/abs/2609.40169v1) |
 
