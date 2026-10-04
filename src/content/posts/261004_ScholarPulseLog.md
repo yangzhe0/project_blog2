@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-03T00:00:00+08:00
+pubDatetime: 2026-10-04T00:00:00+08:00
 description: '100 天学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-04](/pulse/2026-10-04/) | 智能体各自局部有效决策仍可联合产生无效结果，此为共享状态失败的全局一致性问题，而非模型智能不足。局部智能无法替代缺失的全局状态。 | [Global Coherence: When Every Agent Is Right and the Team Is Still Wrong - A Local-to-Global Semantic Foundation for Multi-Agent Collaboration](http://arxiv.org/abs/2610.02036v1) |
+| [2026-10-04](/pulse/2026-10-04/) | Mem++是非破坏性记忆框架，从写时蒸馏转向读时选择，完整存储文档并按时检索，在组织记忆基准上优于现有系统。 | [Mem++: Non-Destructive Memory for Long-Term Organizational LLM Agents](http://arxiv.org/abs/2610.02002v1) |
 | [2026-10-03](/pulse/2026-10-03/) | 本文提出多模态智能体FaV-A，通过分阶段工作流生成视觉连贯且语义对齐的正负空间构图，优于直接零样本MLLM基线。 | [Form and Void: Entangled Composition through an Autonomous AI Agent](http://arxiv.org/abs/2610.02045v1) |
 | [2026-10-03](/pulse/2026-10-03/) | Mimir 展示了物理基础 LLM 代理在长期物理控制中的潜力，通过两个时间尺度结合语义推理与数值约束实现安全自改进。 | [Mimir: Physics-Grounded LLM Agents for Long-Horizon Irrigation Control](http://arxiv.org/abs/2610.02038v1) |
 | [2026-10-02](/pulse/2026-10-02/) | InterEvolve通过测试时进化奖励程序，使人形机器人无需重训练即可重用现有技能解决新的loco-manipulation任务，并从自身尝试中改进并保留所学。 | [InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation](http://arxiv.org/abs/2610.02196v1) |
