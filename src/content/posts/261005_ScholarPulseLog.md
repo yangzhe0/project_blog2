@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-04T00:00:00+08:00
+pubDatetime: 2026-10-05T00:00:00+08:00
 description: '100 天学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-05](/pulse/2026-10-05/) | NeutronGym是首个可执行中子仪器设计环境，LLM智能体通过验证工具构建仪器，McStas射线追踪，分级梯子无LLM评判评估语法、运行时、结构和科学，程序化家族提供无限实例，并可RL训练。 | [NeutronGym: Physics-Graded Neutron Instrument Design for LLM Agents](http://arxiv.org/abs/2610.03631v1) |
+| [2026-10-05](/pulse/2026-10-05/) | HazardWeaver将自然灾害分析中科学方法选择形式化为状态依赖路径选择，使AI代理能根据事件、数据和工具动态确定适用且可执行的工作流，并随新证据修订决策。 | [HazardWeaver: Scientific Route Selection for Hazard Analysis Agents](http://arxiv.org/abs/2610.03591v1) |
 | [2026-10-04](/pulse/2026-10-04/) | 智能体各自局部有效决策仍可联合产生无效结果，此为共享状态失败的全局一致性问题，而非模型智能不足。局部智能无法替代缺失的全局状态。 | [Global Coherence: When Every Agent Is Right and the Team Is Still Wrong - A Local-to-Global Semantic Foundation for Multi-Agent Collaboration](http://arxiv.org/abs/2610.02036v1) |
 | [2026-10-04](/pulse/2026-10-04/) | Mem++是非破坏性记忆框架，从写时蒸馏转向读时选择，完整存储文档并按时检索，在组织记忆基准上优于现有系统。 | [Mem++: Non-Destructive Memory for Long-Term Organizational LLM Agents](http://arxiv.org/abs/2610.02002v1) |
 | [2026-10-03](/pulse/2026-10-03/) | 本文提出多模态智能体FaV-A，通过分阶段工作流生成视觉连贯且语义对齐的正负空间构图，优于直接零样本MLLM基线。 | [Form and Void: Entangled Composition through an Autonomous AI Agent](http://arxiv.org/abs/2610.02045v1) |
