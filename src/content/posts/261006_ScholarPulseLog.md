@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-05T00:00:00+08:00
+pubDatetime: 2026-10-06T00:00:00+08:00
 description: '100 天学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-06](/pulse/2026-10-06/) | RV-ICL是一种训练免费方法，将演示视频转化为智能体可导航的层次结构而非直接提示，从而提升冻结VLA策略的任务成功率。 | [Recursive Video In-Context Learning for Agentic Robot](http://arxiv.org/abs/2610.06843v1) |
+| [2026-10-06](/pulse/2026-10-06/) | MemPilot 提出了一种灵活的框架，通过强化学习优化多步 LLM 策略，在不同性能-成本-延迟偏好下，对接需内存 curation，实现 LLM 代理的 on-demand 多模态内存管理。该框架解决了现有系统在构建内存时不必要的预处理成本和可能丢失关键细节的问题，并提供了灵活的运行时适应控制。 | [MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents](http://arxiv.org/abs/2610.06830v1) |
 | [2026-10-05](/pulse/2026-10-05/) | NeutronGym是首个可执行中子仪器设计环境，LLM智能体通过验证工具构建仪器，McStas射线追踪，分级梯子无LLM评判评估语法、运行时、结构和科学，程序化家族提供无限实例，并可RL训练。 | [NeutronGym: Physics-Graded Neutron Instrument Design for LLM Agents](http://arxiv.org/abs/2610.03631v1) |
 | [2026-10-05](/pulse/2026-10-05/) | HazardWeaver将自然灾害分析中科学方法选择形式化为状态依赖路径选择，使AI代理能根据事件、数据和工具动态确定适用且可执行的工作流，并随新证据修订决策。 | [HazardWeaver: Scientific Route Selection for Hazard Analysis Agents](http://arxiv.org/abs/2610.03591v1) |
 | [2026-10-04](/pulse/2026-10-04/) | 智能体各自局部有效决策仍可联合产生无效结果，此为共享状态失败的全局一致性问题，而非模型智能不足。局部智能无法替代缺失的全局状态。 | [Global Coherence: When Every Agent Is Right and the Team Is Still Wrong - A Local-to-Global Semantic Foundation for Multi-Agent Collaboration](http://arxiv.org/abs/2610.02036v1) |
