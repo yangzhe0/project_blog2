@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-08T00:00:00+08:00
+pubDatetime: 2026-10-09T00:00:00+08:00
 description: '100 天学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-09](/pulse/2026-10-09/) | 白盒探针通过最大欺骗数据集和新型跨层架构，有效检测LLM欺骗与破坏，SHADE-Arena达98.8% AUC超越基线，并能捕捉内省欺骗。 | [Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception](http://arxiv.org/abs/2610.12445v1) |
+| [2026-10-09](/pulse/2026-10-09/) | 协作使AI智能体种群产生临界规模阈值：低于该阈值种群衰退，高于则即使个体能力未变也会起飞进入自我强化循环，此即生态学中的强Allee效应。 | [Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff](http://arxiv.org/abs/2610.12436v1) |
 | [2026-10-08](/pulse/2026-10-08/) | AI代理在六小时预算内能够从真实观测数据中构建ENSO低阶随机模型，并通过重构和预测未持有年份优于已发表模型，其结构与ENSO暖冷不对称的两个竞争解释相关，这表明代理可以构建竞争性模型并揭示科学家仍争论的问题。 | [SciExam for ENSO: Can AI Agents Build Climate Models?](http://arxiv.org/abs/2610.10513v1) |
 | [2026-10-08](/pulse/2026-10-08/) | LOCAA 是一个基于大语言模型的科学损失压缩自动调优代理系统，通过工具集成执行、压缩感知指导和持久内存实现压缩中的循环搜索，能够高效地为用户定义的目标和约束找到合适的压缩配置。 | [LOCAA: An Agentic System for Automated Lossy Compressor Tuning](http://arxiv.org/abs/2610.10487v1) |
 | [2026-10-06](/pulse/2026-10-06/) | RV-ICL是一种训练免费方法，将演示视频转化为智能体可导航的层次结构而非直接提示，从而提升冻结VLA策略的任务成功率。 | [Recursive Video In-Context Learning for Agentic Robot](http://arxiv.org/abs/2610.06843v1) |
