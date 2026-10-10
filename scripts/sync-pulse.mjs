@@ -208,6 +208,7 @@ async function main() {
     console.log("[sync-pulse] git 无实质变更");
     return;
   }
+  g("git pull --rebase --autostash origin main");
   g("git push origin main");
   console.log("[sync-pulse] 已推送，Vercel 接管构建");
 }
