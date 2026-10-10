@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-10](/pulse/2026-10-10/) | 提出Dex-One2Many框架，将单个人类视频抽象为序列场景图以引导强化学习，实现灵巧手操作的高效探索与强泛化。 | [Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration](http://arxiv.org/abs/2610.12470v1) |
+| [2026-10-10](/pulse/2026-10-10/) | 本文提出错误传播建模方法（EMFA），通过有效区分根本错误与下游症状，在LLM多智能体系统失败归因中实现了最先进的步骤级准确率。 | [Error-Propagation Modeling for Failure Attribution in LLM-Based Multi-Agent Systems](http://arxiv.org/abs/2610.11600v1) |
 | [2026-10-09](/pulse/2026-10-09/) | 白盒探针通过最大欺骗数据集和新型跨层架构，有效检测LLM欺骗与破坏，SHADE-Arena达98.8% AUC超越基线，并能捕捉内省欺骗。 | [Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception](http://arxiv.org/abs/2610.12445v1) |
 | [2026-10-09](/pulse/2026-10-09/) | 协作使AI智能体种群产生临界规模阈值：低于该阈值种群衰退，高于则即使个体能力未变也会起飞进入自我强化循环，此即生态学中的强Allee效应。 | [Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff](http://arxiv.org/abs/2610.12436v1) |
 | [2026-10-08](/pulse/2026-10-08/) | AI代理在六小时预算内能够从真实观测数据中构建ENSO低阶随机模型，并通过重构和预测未持有年份优于已发表模型，其结构与ENSO暖冷不对称的两个竞争解释相关，这表明代理可以构建竞争性模型并揭示科学家仍争论的问题。 | [SciExam for ENSO: Can AI Agents Build Climate Models?](http://arxiv.org/abs/2610.10513v1) |
@@ -27,8 +29,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 | [2026-10-03](/pulse/2026-10-03/) | Mimir 展示了物理基础 LLM 代理在长期物理控制中的潜力，通过两个时间尺度结合语义推理与数值约束实现安全自改进。 | [Mimir: Physics-Grounded LLM Agents for Long-Horizon Irrigation Control](http://arxiv.org/abs/2610.02038v1) |
 | [2026-10-02](/pulse/2026-10-02/) | InterEvolve通过测试时进化奖励程序，使人形机器人无需重训练即可重用现有技能解决新的loco-manipulation任务，并从自身尝试中改进并保留所学。 | [InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation](http://arxiv.org/abs/2610.02196v1) |
 | [2026-10-02](/pulse/2026-10-02/) | SourceLearn通过持续来源模型，将智能体对权威来源的重复使用从反复访问转为可复用来源特定能力学习，多数设置优于检索与记忆基线。 | [From Knowledge Access to Source Learning: Developing Source-Specific Competence](http://arxiv.org/abs/2610.02150v1) |
-| [2026-10-01](/pulse/2026-10-01/) | 基于 arXiv 元数据收录，具体贡献需要阅读原文后确认。 | [Skill-Based AI Agents for Power-System Studies](http://arxiv.org/abs/2609.40272v1) |
-| [2026-10-01](/pulse/2026-10-01/) | ScholarEvolve框架受人类从研究文献学习启发，自动汲取SOTA研究指导agent harness进化（固定底层语言模型），克服现有元编码方法探索受限与被动适应问题，实现主动终身进化，并在AppWorld与Tau2-Bench上显著提升任务表现。 | [Learning from Research: Toward Lifelong Agent Harness Evolution](http://arxiv.org/abs/2609.40169v1) |
+| [2026-10-01](/pulse/2026-10-01/) | 本文提出了由AI智能体协助构建、基于JAX的模块化、可微且多尺度的地球系统模型legoESM。 | [legoESM: a modular, differentiable, multiscale, AI-ready Earth system model built with AI agents](http://arxiv.org/abs/2610.11883v1) |
+| [2026-10-01](/pulse/2026-10-01/) | 提出 Memento 3，使冻结的 LLM 智能体通过规则书与代码的反思验证，持续学习显式世界模型并实现递归自我改进。 | [Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks](http://arxiv.org/abs/2610.11794v1) |
 
 ### 2026-09
 
@@ -36,6 +38,10 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 | --- | --- | --- |
 | [2026-09-30](/pulse/2026-09-30/) | 提出流式监控机制 OnTrack，通过比对智能体步骤与依赖关系，以每步约1毫秒的低延迟预警或阻断失败轨迹，兼顾安全与低成本。 | [OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport](http://arxiv.org/abs/2610.12375v1) |
 | [2026-09-30](/pulse/2026-09-30/) | 本文评估了LLM智能体在知识冲突下的“认知谦逊”，发现高任务准确率不等于高谦逊度，且提升后者常以牺牲准确率为代价。 | [Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict](http://arxiv.org/abs/2610.12360v1) |
+| [2026-09-29](/pulse/2026-09-29/) | 基于理论参数化的LLM生成式智能体能准确模拟并复现儿童的不同攻击行为亚型。 | ["Hot-Blooded" vs "Cold-Blooded": Simulating the Behavioral Phenotypes of Childhood Aggression via Generative Agents](http://arxiv.org/abs/2610.11951v1) |
+| [2026-09-29](/pulse/2026-09-29/) | 本综述系统评估了LLM集成应用的各类标签，证实其具备真实的软件架构内涵，并归纳了七种常见应用形态。 | [Forms of LLM-Integrated Applications from LLM-Chats to Autonomous AI Agent System](http://arxiv.org/abs/2610.11899v1) |
+| [2026-09-28](/pulse/2026-09-28/) | 本文提出跨领域基准 AgenticBBO-Bench，系统评估了大模型智能体在黑盒优化（BBO）中的表现及关键设计因素的影响。 | [A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization](http://arxiv.org/abs/2610.12183v1) |
+| [2026-09-28](/pulse/2026-09-28/) | 本文提出分层记忆与持续学习架构Hippocam，通过基于意图的经验整合机制，使LLM智能体无需更新参数即可从自身经验中学习进化。 | [Use and Disuse: Intent-Structured Experience Consolidation for Memory and Learning in LLM Agents](http://arxiv.org/abs/2610.12124v1) |
 | [2026-09-27](/pulse/2026-09-27/) | KREX 是共享 GPU 的并发内核基准测试运行时，以区域级独占保真、区域外并发，提升智能体测试吞吐。 | [KREX: Concurrent Kernel Benchmarking on Shared GPUs via Region-Granular Exclusivity](http://arxiv.org/abs/2609.30057v1) |
 | [2026-09-27](/pulse/2026-09-27/) | 多智能体系统中，抗欺骗能力取决于欺骗者比例而非智能体总数；增加智能体数量不足以防御，因为对手可随群体扩展。 | [How does Adversarial Influence Scale in Multi-Agent Systems?](http://arxiv.org/abs/2609.30028v1) |
 | [2026-09-26](/pulse/2026-09-26/) | 该工作提出用仿真在部署前筛选生产级客户体验 AI 代理，并在 Nubank 高流量客服场景中验证其线上收益。 | [Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale](http://arxiv.org/abs/2609.30137v1) |
