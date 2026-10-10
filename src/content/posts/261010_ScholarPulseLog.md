@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-09T00:00:00+08:00
+pubDatetime: 2026-10-10T00:00:00+08:00
 description: '100 天学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -15,6 +15,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 | [2026-10-09](/pulse/2026-10-09/) | 协作使AI智能体种群产生临界规模阈值：低于该阈值种群衰退，高于则即使个体能力未变也会起飞进入自我强化循环，此即生态学中的强Allee效应。 | [Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff](http://arxiv.org/abs/2610.12436v1) |
 | [2026-10-08](/pulse/2026-10-08/) | AI代理在六小时预算内能够从真实观测数据中构建ENSO低阶随机模型，并通过重构和预测未持有年份优于已发表模型，其结构与ENSO暖冷不对称的两个竞争解释相关，这表明代理可以构建竞争性模型并揭示科学家仍争论的问题。 | [SciExam for ENSO: Can AI Agents Build Climate Models?](http://arxiv.org/abs/2610.10513v1) |
 | [2026-10-08](/pulse/2026-10-08/) | LOCAA 是一个基于大语言模型的科学损失压缩自动调优代理系统，通过工具集成执行、压缩感知指导和持久内存实现压缩中的循环搜索，能够高效地为用户定义的目标和约束找到合适的压缩配置。 | [LOCAA: An Agentic System for Automated Lossy Compressor Tuning](http://arxiv.org/abs/2610.10487v1) |
+| [2026-10-07](/pulse/2026-10-07/) | 本文提出对抗性启发式学习（AHL）范式与AAArena基准，证明固定权重的AI智能体仅靠修正可执行策略，即可在部分对抗游戏中登顶人类天梯。 | [Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition](http://arxiv.org/abs/2610.12341v1) |
+| [2026-10-07](/pulse/2026-10-07/) | 本文提出DataSense-Bench，旨在评估AI智能体挑选微调数据并预测性能的“数据感知”能力，发现当前模型相比随机选择提升有限且跨任务表现不稳定。 | [DataSense-Bench: The First Step Toward an AI Scientist](http://arxiv.org/abs/2610.12190v1) |
 | [2026-10-06](/pulse/2026-10-06/) | RV-ICL是一种训练免费方法，将演示视频转化为智能体可导航的层次结构而非直接提示，从而提升冻结VLA策略的任务成功率。 | [Recursive Video In-Context Learning for Agentic Robot](http://arxiv.org/abs/2610.06843v1) |
 | [2026-10-06](/pulse/2026-10-06/) | MemPilot 提出了一种灵活的框架，通过强化学习优化多步 LLM 策略，在不同性能-成本-延迟偏好下，对接需内存 curation，实现 LLM 代理的 on-demand 多模态内存管理。该框架解决了现有系统在构建内存时不必要的预处理成本和可能丢失关键细节的问题，并提供了灵活的运行时适应控制。 | [MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents](http://arxiv.org/abs/2610.06830v1) |
 | [2026-10-05](/pulse/2026-10-05/) | NeutronGym是首个可执行中子仪器设计环境，LLM智能体通过验证工具构建仪器，McStas射线追踪，分级梯子无LLM评判评估语法、运行时、结构和科学，程序化家族提供无限实例，并可RL训练。 | [NeutronGym: Physics-Graded Neutron Instrument Design for LLM Agents](http://arxiv.org/abs/2610.03631v1) |
@@ -32,8 +34,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
-| [2026-09-30](/pulse/2026-09-30/) | LLM智能体常无法忠实执行所声明规划，Planning-as-Routing让LLM声明四种模式并由确定性路由器分派至模式特定执行器，从而缩小声明-执行差距并提升任务成功率。 | [Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution](http://arxiv.org/abs/2609.38108v1) |
-| [2026-09-30](/pulse/2026-09-30/) | 通过角色训练植入恒定绝对风险厌恶（CARA），可使未对齐智能体更偏好与人类交易等安全策略，从而有望降低其造成灾难性伤害的风险。 | [Character Training for Risk-Averse Agents](http://arxiv.org/abs/2609.38093v1) |
+| [2026-09-30](/pulse/2026-09-30/) | 提出流式监控机制 OnTrack，通过比对智能体步骤与依赖关系，以每步约1毫秒的低延迟预警或阻断失败轨迹，兼顾安全与低成本。 | [OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport](http://arxiv.org/abs/2610.12375v1) |
+| [2026-09-30](/pulse/2026-09-30/) | 本文评估了LLM智能体在知识冲突下的“认知谦逊”，发现高任务准确率不等于高谦逊度，且提升后者常以牺牲准确率为代价。 | [Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict](http://arxiv.org/abs/2610.12360v1) |
 | [2026-09-27](/pulse/2026-09-27/) | KREX 是共享 GPU 的并发内核基准测试运行时，以区域级独占保真、区域外并发，提升智能体测试吞吐。 | [KREX: Concurrent Kernel Benchmarking on Shared GPUs via Region-Granular Exclusivity](http://arxiv.org/abs/2609.30057v1) |
 | [2026-09-27](/pulse/2026-09-27/) | 多智能体系统中，抗欺骗能力取决于欺骗者比例而非智能体总数；增加智能体数量不足以防御，因为对手可随群体扩展。 | [How does Adversarial Influence Scale in Multi-Agent Systems?](http://arxiv.org/abs/2609.30028v1) |
 | [2026-09-26](/pulse/2026-09-26/) | 该工作提出用仿真在部署前筛选生产级客户体验 AI 代理，并在 Nubank 高流量客服场景中验证其线上收益。 | [Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale](http://arxiv.org/abs/2609.30137v1) |
