@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-10T00:00:00+08:00
+pubDatetime: 2026-10-11T00:00:00+08:00
 description: '100 天学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-11](/pulse/2026-10-11/) | 本文提出ReTeach自蒸馏框架，仅靠模型自生成尝试与结果级验证，通过多轮反思与重试构建自教师，在保持单次推理的同时提升了推理表现。 | [ReTeach: Building a Self-Teacher through Multi-Round Reflection and Retry](http://arxiv.org/abs/2610.11529v1) |
+| [2026-10-11](/pulse/2026-10-11/) | 本文研究了工具调用LLM智能体故障注入测试的“证据有效性”问题，提出SSCBench基准，强调评估需报告反证可见的时序条件。 | [SSCBench: Evaluating the Evidential Validity of Fault-Injection Tests for Tool-Using LLM Agents](http://arxiv.org/abs/2610.11514v1) |
 | [2026-10-10](/pulse/2026-10-10/) | 提出Dex-One2Many框架，将单个人类视频抽象为序列场景图以引导强化学习，实现灵巧手操作的高效探索与强泛化。 | [Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration](http://arxiv.org/abs/2610.12470v1) |
 | [2026-10-10](/pulse/2026-10-10/) | 本文提出错误传播建模方法（EMFA），通过有效区分根本错误与下游症状，在LLM多智能体系统失败归因中实现了最先进的步骤级准确率。 | [Error-Propagation Modeling for Failure Attribution in LLM-Based Multi-Agent Systems](http://arxiv.org/abs/2610.11600v1) |
 | [2026-10-09](/pulse/2026-10-09/) | 白盒探针通过最大欺骗数据集和新型跨层架构，有效检测LLM欺骗与破坏，SHADE-Arena达98.8% AUC超越基线，并能捕捉内省欺骗。 | [Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception](http://arxiv.org/abs/2610.12445v1) |
