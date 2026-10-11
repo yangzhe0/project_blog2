@@ -24,7 +24,5 @@ dist/
 Thumbs.db
 Desktop.ini
 
-.agents
-
 # Local previews and temporary download caches
 .cache/

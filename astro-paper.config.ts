@@ -2,11 +2,11 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://sues.fun/",
+    url: "https://zheoi.com/",
     title: "Jones Ray",
     description: "天文科研、数据处理与 AI Agent 应用开发笔记。",
     author: "杨哲",
-    profile: "https://me.sues.fun/",
+    profile: "https://me.zheoi.com/",
     ogImage: "default-og.png",
     lang: "zh-CN",
     timezone: "Asia/Shanghai",
@@ -19,7 +19,6 @@ export default defineAstroPaperConfig({
   },
   features: {
     lightAndDarkMode: true,
-    dynamicOgImage: false,
     showArchives: true,
     showBackButton: true,
     editPost: { enabled: false },

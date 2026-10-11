@@ -1,5 +1,6 @@
 ---
 import { type CollectionEntry, getCollection, render } from "astro:content";
+import { getRelativeLocaleUrl } from "astro:i18n";
 import PostLayout from "@/layouts/PostLayout.astro";
 import Header from "@/components/Header.astro";
 import Breadcrumb from "@/components/Breadcrumb.astro";
@@ -7,6 +8,8 @@ import Main from "@/components/Main.astro";
 import Footer from "@/components/Footer.astro";
 import Tag from "@/components/Tag.astro";
 import { slugifyStr } from "@/utils/slugify";
+import { getPostUrl } from "@/utils/getPostPaths";
+import { getSortedPosts } from "@/utils/getSortedPosts";
 import config from "@/config";
 
 // frontmatter 里 pubDatetime 固定 +08:00 -> UTC+8 的日期串
@@ -17,6 +20,11 @@ export function dayOf(d: Date) {
 
 export async function getStaticPaths() {
   const posts = await getCollection("pulse");
+  const indexPost = getSortedPosts(await getCollection("posts"))
+    .find(post => /_scholarpulselog$/i.test(post.id));
+  const indexUrl = indexPost
+    ? getPostUrl(indexPost.id, indexPost.filePath)
+    : getRelativeLocaleUrl(config.site.lang, "posts");
   const daily = posts.filter(p => !p.data.tags.includes("索引"));
   const sorted = [...daily].sort((a, b) =>
     b.data.pubDatetime.valueOf() - a.data.pubDatetime.valueOf()
@@ -25,6 +33,7 @@ export async function getStaticPaths() {
     params: { date: dayOf(entry.data.pubDatetime) },
     props: {
       entry,
+      indexUrl,
       prevDay: sorted[i + 1] && { date: dayOf(sorted[i + 1].data.pubDatetime) },
       nextDay: sorted[i - 1] && { date: dayOf(sorted[i - 1].data.pubDatetime) },
     },
@@ -33,11 +42,12 @@ export async function getStaticPaths() {
 
 type Props = {
   entry: CollectionEntry<"pulse">;
+  indexUrl: string;
   prevDay: { date: string } | null;
   nextDay: { date: string } | null;
 };
 
-const { entry, prevDay, nextDay } = Astro.props;
+const { entry, indexUrl, prevDay, nextDay } = Astro.props;
 const { title, description, pubDatetime, tags } = entry.data;
 const { Content } = await render(entry);
 ---
@@ -49,7 +59,7 @@ const { Content } = await render(entry);
 >
   <Header />
 
-  <Breadcrumb />
+  <Breadcrumb links={{ pulse: { label: "ScholarPulse", href: indexUrl } }} />
 
   <Main pageTitle={title} pageDesc={description}>
     <article
