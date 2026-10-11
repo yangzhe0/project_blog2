@@ -1,7 +1,7 @@
 ---
 title: 'ScholarPulse 运行实录'
 pubDatetime: 2026-10-11T00:00:00+08:00
-description: '100 天学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
+description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
 
