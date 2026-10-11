@@ -4,7 +4,6 @@ import "@/styles/about.css";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Breadcrumb from "@/components/Breadcrumb.astro";
-import Main from "@/components/Main.astro";
 import Footer from "@/components/Footer.astro";
 import config from "@/config";
 
@@ -29,9 +28,9 @@ const { Content } = await render(about);
 
   <Breadcrumb />
 
-  <Main pageTitle="" pageDesc="" class="app-prose about-page">
+  <main id="main-content" class="app-layout about-page">
     <Content />
-  </Main>
+  </main>
 
   <Footer />
 </Layout>
