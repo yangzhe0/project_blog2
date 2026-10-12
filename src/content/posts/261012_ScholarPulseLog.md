@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-11T00:00:00+08:00
+pubDatetime: 2026-10-12T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-12](/pulse/2026-10-12/) | 本文提出结合语义匹配与动态可靠性适应的AI智能体工具检索框架RATED，无需重新训练模型即可有效应对运行时外部工具失效的问题。 | [RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics](http://arxiv.org/abs/2610.13889v1) |
+| [2026-10-12](/pulse/2026-10-12/) | 本文提出结合LLM任务决策与预定义行为树（BT）技能的机载架构BT-Agent，在算力和内存受限的移动机器人上实现了任务推理与响应执行。 | [BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation](http://arxiv.org/abs/2610.13862v1) |
 | [2026-10-11](/pulse/2026-10-11/) | 本文提出ReTeach自蒸馏框架，仅靠模型自生成尝试与结果级验证，通过多轮反思与重试构建自教师，在保持单次推理的同时提升了推理表现。 | [ReTeach: Building a Self-Teacher through Multi-Round Reflection and Retry](http://arxiv.org/abs/2610.11529v1) |
 | [2026-10-11](/pulse/2026-10-11/) | 本文研究了工具调用LLM智能体故障注入测试的“证据有效性”问题，提出SSCBench基准，强调评估需报告反证可见的时序条件。 | [SSCBench: Evaluating the Evidential Validity of Fault-Injection Tests for Tool-Using LLM Agents](http://arxiv.org/abs/2610.11514v1) |
 | [2026-10-10](/pulse/2026-10-10/) | 提出Dex-One2Many框架，将单个人类视频抽象为序列场景图以引导强化学习，实现灵巧手操作的高效探索与强泛化。 | [Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration](http://arxiv.org/abs/2610.12470v1) |
