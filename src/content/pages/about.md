@@ -59,10 +59,10 @@ description: "我是杨哲，光学工程硕士在读。这里记录我的天文
       <p class="about-eyebrow">论文知识库 / RAG</p>
       <h3>PaperAgent</h3>
       <p class="about-project-subtitle">让答案回到论文原文</p>
-      <p>面向团队论文库的本地检索问答工具。已接入 61 篇论文，串联文档解析、章节切片与混合检索，回答附带文件来源和检索片段。</p>
-      <p>作者清单、指定论文等问题优先走确定性查询；开放问题再进入 RAG，支持连续追问、流式回答和模型切换。</p>
-      <div class="about-flow" aria-label="项目流程"><span>论文解析</span><span aria-hidden="true">→</span><span>混合检索</span><span aria-hidden="true">→</span><span>来源追踪</span></div>
-      <p class="about-stack">Python · MinerU · BGE-M3 · FAISS / BM25 · Ollama</p>
+      <p>面向天体测量与学术论文库的深度研读与问答系统。已接入 61 篇核心文献，串联 MinerU 深度解析、1600 字符层次感知切片与混合检索，回答严格附带文件来源与可追溯切片。</p>
+      <p>结构化问题走倒排索引与确定性过滤，复杂论述进入学术长上下文与长思维链推理内核；Streamlit 经移动端自适应重构，支持连续深度追问与多档模型切换。</p>
+      <div class="about-flow" aria-label="项目流程"><span>深度解析</span><span aria-hidden="true">→</span><span>混合检索</span><span aria-hidden="true">→</span><span>思维链推演</span></div>
+      <p class="about-stack">Python · MinerU · BGE-M3 · FAISS / BM25 · 响应式 Streamlit</p>
       <div class="about-resource-links"><a href="/posts/260626_paperagent/">开发记录 <span aria-hidden="true">→</span></a><a href="https://github.com/yangzhe0/project_paperagent" target="_blank" rel="noopener noreferrer">代码 <span aria-hidden="true">↗</span></a></div>
     </article>
     <article class="about-project">
