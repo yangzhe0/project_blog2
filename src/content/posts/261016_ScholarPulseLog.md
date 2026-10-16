@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-15T00:00:00+08:00
+pubDatetime: 2026-10-16T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-16](/pulse/2026-10-16/) | 4个Gemini 4 Argon智能体通过自主编程与协作，在无人工干预下历时27小时14分击败末影龙，首度实现《我的世界》端到端自主通关。 | [A team of Gemini 4 Argon agents beats Minecraft](http://arxiv.org/abs/2610.22319v1) |
+| [2026-10-16](/pulse/2026-10-16/) | 本文提出一种引导智能体（steering agent），通过快慢双路径机制在线纠正大模型智能体系统的“目标漂移”，显著提升长程任务的执行性能与效率。 | [Learning to Steer LLM Agents and Multi-Agent Systems](http://arxiv.org/abs/2610.22316v1) |
 | [2026-10-15](/pulse/2026-10-15/) | 研究表明，AI代理市场的“竞争底线”与提示词“条件近独立性”特征可显著降低一阶价格拍卖（FPA）的无序代价，使其福利保障显著优于通用的 $1-1/e$。 | [Price of Anarchy of First-Price Auctions in Agentic Markets](http://arxiv.org/abs/2610.20587v1) |
 | [2026-10-15](/pulse/2026-10-15/) | 论文提出跨界面策略正则化（CIPR），通过自监督一致性训练，显著提升大语言模型智能体在交互界面变动下的鲁棒性。 | [One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness](http://arxiv.org/abs/2610.20576v1) |
 | [2026-10-14](/pulse/2026-10-14/) | ChunkAct 将动作分块引入智能体机器人控制，通过离线将记忆编译为动作块并由在线自主执行，大幅降低大语言模型计算开销并提升任务成功率。 | [ChunkAct: Action Chunking for Agentic Robotics](http://arxiv.org/abs/2610.18874v1) |
