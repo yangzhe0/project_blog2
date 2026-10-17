@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-16T00:00:00+08:00
+pubDatetime: 2026-10-17T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-17](/pulse/2026-10-17/) | 研究揭示了MCP服务器因客户端授权导致权限过宽而引发的“文件系统能力洗白”漏洞，并研发MCP-FSD工具实现了大规模检测。 | [My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale](http://arxiv.org/abs/2610.22301v1) |
+| [2026-10-17](/pulse/2026-10-17/) | 该研究提出“图书管理员智能体”（Librarian Agents），通过强化学习训练构建智能体将非结构化文档预先重构为层次化文件系统工作空间，显著提升下游应对复杂长上下文查询的能力。 | [Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries](http://arxiv.org/abs/2610.22273v1) |
 | [2026-10-16](/pulse/2026-10-16/) | 4个Gemini 4 Argon智能体通过自主编程与协作，在无人工干预下历时27小时14分击败末影龙，首度实现《我的世界》端到端自主通关。 | [A team of Gemini 4 Argon agents beats Minecraft](http://arxiv.org/abs/2610.22319v1) |
 | [2026-10-16](/pulse/2026-10-16/) | 本文提出一种引导智能体（steering agent），通过快慢双路径机制在线纠正大模型智能体系统的“目标漂移”，显著提升长程任务的执行性能与效率。 | [Learning to Steer LLM Agents and Multi-Agent Systems](http://arxiv.org/abs/2610.22316v1) |
 | [2026-10-15](/pulse/2026-10-15/) | 研究表明，AI代理市场的“竞争底线”与提示词“条件近独立性”特征可显著降低一阶价格拍卖（FPA）的无序代价，使其福利保障显著优于通用的 $1-1/e$。 | [Price of Anarchy of First-Price Auctions in Agentic Markets](http://arxiv.org/abs/2610.20587v1) |
