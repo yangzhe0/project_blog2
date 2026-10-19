@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-18T00:00:00+08:00
+pubDatetime: 2026-10-19T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-19](/pulse/2026-10-19/) | 该研究证实大语言模型智能体能够自动化执行科学研究的复现与稳健性分析，有效辅助专家进行同行评审。 | [AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery](http://arxiv.org/abs/2610.23845v1) |
+| [2026-10-19](/pulse/2026-10-19/) | 本文提出利用 AI 智能体优化量子线路编译的新范式，通过将瓶颈子程序约束为经典可验证结构来实现高效合成与验证。 | [Leveraging verifiable structure in quantum circuits to find more efficient compilations with agentic AI](http://arxiv.org/abs/2610.23832v1) |
 | [2026-10-18](/pulse/2026-10-18/) | 研究提出了三层捷径审计框架，证实智能体安全基准中的表面线索会扭曲评估表现，并实质性干扰安全防御模型的决策。 | [Shortcut Sensitivity in Agent-Safety Evaluations](http://arxiv.org/abs/2610.22243v1) |
 | [2026-10-18](/pulse/2026-10-18/) | AutoSFT 提出了一种多智能体系统，通过解耦分析、执行与数据合成，覆盖更全面的数据操作空间，显著提升了监督微调（SFT）的自动化数据研究效果。 | [AutoSFT: An Agentic System for Automated Data Research in Supervised Fine-Tuning](http://arxiv.org/abs/2610.22194v1) |
 | [2026-10-17](/pulse/2026-10-17/) | 研究揭示了MCP服务器因客户端授权导致权限过宽而引发的“文件系统能力洗白”漏洞，并研发MCP-FSD工具实现了大规模检测。 | [My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale](http://arxiv.org/abs/2610.22301v1) |
