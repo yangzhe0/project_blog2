@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-20T00:00:00+08:00
+pubDatetime: 2026-10-21T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-21](/pulse/2026-10-21/) | Agent S4 是一个自主的计算机使用科学家，它通过 meta-agent 从任务代理的轨迹中构建和修订 Evolving Agent Interfaces，利用 population-based evolution 选择泛化良好的接口仓库，在 OSWorld V2 上显著提升了代理性能，达到新的开源 SOTA，性能超过 GPT-5.5 和 Claude Opus，且成本更低。 | [Evolving Agent Interfaces](http://arxiv.org/abs/2610.28601v1) |
+| [2026-10-21](/pulse/2026-10-21/) | 提出缓存工程方案，使LLM智能体无需修改轨迹或重新预填充即可直接控制活动KV缓存，通过drop和repos操作降低成本并提升性能。 | [Cache Engineering for Agents](http://arxiv.org/abs/2610.28577v1) |
 | [2026-10-20](/pulse/2026-10-20/) | 在精确算术任务中，Agent和LLM架构相比传统计算不仅精度欠佳，延迟更暴增数万至百万倍，不宜将其作为“一刀切”的通用方案。 | [Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices](https://arxiv.org/abs/2610.23921) |
 | [2026-10-20](/pulse/2026-10-20/) | FusionRare框架通过融合符号推理、深度学习与大模型等多范式AI，在罕见病诊断上刷新了SOTA表现，并显著提升了临床决策效率与医生信心。 | [Unified Multiparadigm Fusion Intelligence for Rare Disease Diagnosis](https://arxiv.org/abs/2610.24024) |
 | [2026-10-19](/pulse/2026-10-19/) | 该研究证实大语言模型智能体能够自动化执行科学研究的复现与稳健性分析，有效辅助专家进行同行评审。 | [AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery](http://arxiv.org/abs/2610.23845v1) |
