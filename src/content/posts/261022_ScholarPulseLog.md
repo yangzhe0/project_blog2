@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-21T00:00:00+08:00
+pubDatetime: 2026-10-22T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-22](/pulse/2026-10-22/) | 论文提出评估大模型端到端量化投研能力的基准 Quant-Arena，实测表明前沿模型在真实 A 股 2024 年样本外测试中均未战胜等权基准。 | [Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research](http://arxiv.org/abs/2610.30113v1) |
+| [2026-10-22](/pulse/2026-10-22/) | 本文将并行AI智能体协作建模为图结构离散块优化，通过分数着色合并局部修改，有效解决合并冲突并提供理论收益与几何收敛保证。 | [Parallel AI Agent Collaboration as Graph-Structured Distributed Block Optimization](http://arxiv.org/abs/2610.30074v1) |
 | [2026-10-21](/pulse/2026-10-21/) | Agent S4 是一个自主的计算机使用科学家，它通过 meta-agent 从任务代理的轨迹中构建和修订 Evolving Agent Interfaces，利用 population-based evolution 选择泛化良好的接口仓库，在 OSWorld V2 上显著提升了代理性能，达到新的开源 SOTA，性能超过 GPT-5.5 和 Claude Opus，且成本更低。 | [Evolving Agent Interfaces](http://arxiv.org/abs/2610.28601v1) |
 | [2026-10-21](/pulse/2026-10-21/) | 提出缓存工程方案，使LLM智能体无需修改轨迹或重新预填充即可直接控制活动KV缓存，通过drop和repos操作降低成本并提升性能。 | [Cache Engineering for Agents](http://arxiv.org/abs/2610.28577v1) |
 | [2026-10-20](/pulse/2026-10-20/) | 在精确算术任务中，Agent和LLM架构相比传统计算不仅精度欠佳，延迟更暴增数万至百万倍，不宜将其作为“一刀切”的通用方案。 | [Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices](https://arxiv.org/abs/2610.23921) |
