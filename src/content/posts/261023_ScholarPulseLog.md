@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-22T00:00:00+08:00
+pubDatetime: 2026-10-23T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-23](/pulse/2026-10-23/) | 论文提出基准 EpiSEM-Bench，用于评估大模型智能体在工具遗漏关键事实时的不安全执行风险与证据恢复能力。 | [EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence](http://arxiv.org/abs/2610.31650v1) |
+| [2026-10-23](/pulse/2026-10-23/) | 研究表明通过强化学习后训练的小型开源模型（如 Qwen3-8B），可在海量工具选择任务上超越 402B 巨型模型，并具备跨检索器与跨领域的强迁移性。 | [Training Small Language Models for Transferable Tool Selection](http://arxiv.org/abs/2610.31483v1) |
 | [2026-10-22](/pulse/2026-10-22/) | 论文提出评估大模型端到端量化投研能力的基准 Quant-Arena，实测表明前沿模型在真实 A 股 2024 年样本外测试中均未战胜等权基准。 | [Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research](http://arxiv.org/abs/2610.30113v1) |
 | [2026-10-22](/pulse/2026-10-22/) | 本文将并行AI智能体协作建模为图结构离散块优化，通过分数着色合并局部修改，有效解决合并冲突并提供理论收益与几何收敛保证。 | [Parallel AI Agent Collaboration as Graph-Structured Distributed Block Optimization](http://arxiv.org/abs/2610.30074v1) |
 | [2026-10-21](/pulse/2026-10-21/) | Agent S4 是一个自主的计算机使用科学家，它通过 meta-agent 从任务代理的轨迹中构建和修订 Evolving Agent Interfaces，利用 population-based evolution 选择泛化良好的接口仓库，在 OSWorld V2 上显著提升了代理性能，达到新的开源 SOTA，性能超过 GPT-5.5 和 Claude Opus，且成本更低。 | [Evolving Agent Interfaces](http://arxiv.org/abs/2610.28601v1) |
