@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-23T00:00:00+08:00
+pubDatetime: 2026-10-24T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-24](/pulse/2026-10-24/) | 论文提出自适应技能粒度框架，通过运行时路由与“宏观到微观”失败恢复，解决了代码智能体固定技能粒度的脆弱性问题。 | [Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery](http://arxiv.org/abs/2610.31461v1) |
+| [2026-10-24](/pulse/2026-10-24/) | 本文提出基于 Petri 网监督控制的智能体执行框架，在提示注入攻击下提供形式化安全保证，并优化了带重试成本的闭环重规划侵入性。 | [Certified Execution Harness for Agentic AI: Safe and Least-Intrusive Petri-Net Supervisory Control Between Reasoning and Action](http://arxiv.org/abs/2610.31376v1) |
 | [2026-10-23](/pulse/2026-10-23/) | 论文提出基准 EpiSEM-Bench，用于评估大模型智能体在工具遗漏关键事实时的不安全执行风险与证据恢复能力。 | [EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence](http://arxiv.org/abs/2610.31650v1) |
 | [2026-10-23](/pulse/2026-10-23/) | 研究表明通过强化学习后训练的小型开源模型（如 Qwen3-8B），可在海量工具选择任务上超越 402B 巨型模型，并具备跨检索器与跨领域的强迁移性。 | [Training Small Language Models for Transferable Tool Selection](http://arxiv.org/abs/2610.31483v1) |
 | [2026-10-22](/pulse/2026-10-22/) | 论文提出评估大模型端到端量化投研能力的基准 Quant-Arena，实测表明前沿模型在真实 A 股 2024 年样本外测试中均未战胜等权基准。 | [Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research](http://arxiv.org/abs/2610.30113v1) |
