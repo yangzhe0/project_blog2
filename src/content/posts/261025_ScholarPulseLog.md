@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-24T00:00:00+08:00
+pubDatetime: 2026-10-25T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-25](/pulse/2026-10-25/) | AfterDeleteBench评测表明，LLM智能体在删除原始记忆后仍可通过衍生状态恢复机密，证明记忆删除不能仅作为存储操作，需从系统行为层面综合评估。 | [AfterDeleteBench: Auditing Post-Deletion Information Persistence in LLM Agents](http://arxiv.org/abs/2610.31366v1) |
+| [2026-10-25](/pulse/2026-10-25/) | Muffin 提出了一种基于共享内存缓冲区的异步多智能体交互协议，在保持私有推理本地化的同时实现中间发现的异步交换，显著提升了推理性能并降低了计算成本。 | [Muffin - A Shared Memory Buffer for Asynchronous AI Agents](http://arxiv.org/abs/2610.31355v1) |
 | [2026-10-24](/pulse/2026-10-24/) | 论文提出自适应技能粒度框架，通过运行时路由与“宏观到微观”失败恢复，解决了代码智能体固定技能粒度的脆弱性问题。 | [Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery](http://arxiv.org/abs/2610.31461v1) |
 | [2026-10-24](/pulse/2026-10-24/) | 本文提出基于 Petri 网监督控制的智能体执行框架，在提示注入攻击下提供形式化安全保证，并优化了带重试成本的闭环重规划侵入性。 | [Certified Execution Harness for Agentic AI: Safe and Least-Intrusive Petri-Net Supervisory Control Between Reasoning and Action](http://arxiv.org/abs/2610.31376v1) |
 | [2026-10-23](/pulse/2026-10-23/) | 论文提出基准 EpiSEM-Bench，用于评估大模型智能体在工具遗漏关键事实时的不安全执行风险与证据恢复能力。 | [EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence](http://arxiv.org/abs/2610.31650v1) |
