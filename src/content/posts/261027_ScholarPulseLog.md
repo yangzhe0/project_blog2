@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-26T00:00:00+08:00
+pubDatetime: 2026-10-27T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-27](/pulse/2026-10-27/) | 针对AI智能体绕过人类审查的风险，论文提出“不可剥夺的人在回路”（I-HITL）概念与Countersign原型，确保关键操作必须经人类明确批准。 | [I-HITL: Inalienable Human-in-the-Loop](http://arxiv.org/abs/2610.35835v1) |
+| [2026-10-27](/pulse/2026-10-27/) | REVA通过单次前向传播注入安全上下文并探测LLM内部表征，以单函数约1秒的速度达到了顶尖智能体检测器的精度。 | [Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models](http://arxiv.org/abs/2610.35829v1) |
 | [2026-10-26](/pulse/2026-10-26/) | LLM智能体在观点模拟中违反互补一致性（正反命题概率和大于1），说明其模拟概率不能直接等同于内在信念。 | [Do "True" and "False" Add Up to One? Complement Consistency in LLM-Agent Opinion Simulations](http://arxiv.org/abs/2610.32874v1) |
 | [2026-10-26](/pulse/2026-10-26/) | J-Comm提出免训练几何共识与H+J隐式通信接口，实现了无需共享KV缓存或匹配模型宽度的跨LLM智能体高效协同推理。 | [J-Comm: Jacobian-Guided Latent Communication between LLM Agents](http://arxiv.org/abs/2610.32871v1) |
 | [2026-10-25](/pulse/2026-10-25/) | AfterDeleteBench评测表明，LLM智能体在删除原始记忆后仍可通过衍生状态恢复机密，证明记忆删除不能仅作为存储操作，需从系统行为层面综合评估。 | [AfterDeleteBench: Auditing Post-Deletion Information Persistence in LLM Agents](http://arxiv.org/abs/2610.31366v1) |
