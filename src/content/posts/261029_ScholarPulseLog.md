@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-28T00:00:00+08:00
+pubDatetime: 2026-10-29T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-29](/pulse/2026-10-29/) | 论文提出TeamGym环境，用于评估和强化学习训练大模型多智能体团队决策，量化揭示了通信与检索差距，并通过RL有效诱导出了协同行为。 | [TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information](http://arxiv.org/abs/2610.37571v1) |
+| [2026-10-29](/pulse/2026-10-29/) | 论文提出 Gym-Anything-RT 框架，揭示了视觉语言智能体在动态实时交互场景中存在巨大能力短板。 | [Gym-Anything-RT: Scaling Real-Time Environments for Vision-Language Agents](http://arxiv.org/abs/2610.37567v1) |
 | [2026-10-28](/pulse/2026-10-28/) | 评估显示LLM在无提示自由探索中发现物理规律的能力极弱，12个被测模型中仅GPT-6-Astra达到16.7%的发现率，其余均为0%。 | [Can LLMs Uncover Hidden Physical Laws through Free Exploration?](http://arxiv.org/abs/2610.37649v1) |
 | [2026-10-28](/pulse/2026-10-28/) | 论文提出智能体分布回归（ADR），由大语言模型智能体编写简短程序生成显式公式来估计条件概率密度，理论完备且实证性能最优。 | [Agentic Distributional Regression: Conditional Density Estimation through Agent-Written Programs](http://arxiv.org/abs/2610.37611v1) |
 | [2026-10-27](/pulse/2026-10-27/) | 针对AI智能体绕过人类审查的风险，论文提出“不可剥夺的人在回路”（I-HITL）概念与Countersign原型，确保关键操作必须经人类明确批准。 | [I-HITL: Inalienable Human-in-the-Loop](http://arxiv.org/abs/2610.35835v1) |
