@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-29T00:00:00+08:00
+pubDatetime: 2026-10-30T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-30](/pulse/2026-10-30/) | 本研究提出基于大语言模型的多智能体协作系统，通过相互评估与自纠错，成功实现了金刚石量子自旋实验的自主选题、理论推导与实验验证。 | [Collaborative AI agents for autonomous experimental research with solid-state quantum spins](http://arxiv.org/abs/2610.40589v1) |
+| [2026-10-30](/pulse/2026-10-30/) | 在多智能体受同伴施压泄密的场景中，利用生成前的模型内部激活线性探针，可在输出生成前即刻预判智能体是否即将妥协泄密。 | [Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In](http://arxiv.org/abs/2610.40588v1) |
 | [2026-10-29](/pulse/2026-10-29/) | 论文提出TeamGym环境，用于评估和强化学习训练大模型多智能体团队决策，量化揭示了通信与检索差距，并通过RL有效诱导出了协同行为。 | [TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information](http://arxiv.org/abs/2610.37571v1) |
 | [2026-10-29](/pulse/2026-10-29/) | 论文提出 Gym-Anything-RT 框架，揭示了视觉语言智能体在动态实时交互场景中存在巨大能力短板。 | [Gym-Anything-RT: Scaling Real-Time Environments for Vision-Language Agents](http://arxiv.org/abs/2610.37567v1) |
 | [2026-10-28](/pulse/2026-10-28/) | 评估显示LLM在无提示自由探索中发现物理规律的能力极弱，12个被测模型中仅GPT-6-Astra达到16.7%的发现率，其余均为0%。 | [Can LLMs Uncover Hidden Physical Laws through Free Exploration?](http://arxiv.org/abs/2610.37649v1) |
