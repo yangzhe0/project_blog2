@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-30T00:00:00+08:00
+pubDatetime: 2026-10-31T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-10-31](/pulse/2026-10-31/) | 基于105个可执行技能构建的LLM智能体ClinGeX，能显著提升临床基因组分析的一致性并缩短专家解读耗时。 | [Advancing Clinical Genomic Analysis with a Skill-Centred Agent](http://arxiv.org/abs/2610.40556v1) |
+| [2026-10-31](/pulse/2026-10-31/) | LLM智能体CEDAR通过融合多模态病历预测儿科糖尿病结局，性能显著超越传统机器学习，且具备极高事实准确性与临床可信度。 | [Agentic LLM reasoning in pediatric diabetes outcome prediction from multimodal medical records](http://arxiv.org/abs/2610.40379v1) |
 | [2026-10-30](/pulse/2026-10-30/) | 本研究提出基于大语言模型的多智能体协作系统，通过相互评估与自纠错，成功实现了金刚石量子自旋实验的自主选题、理论推导与实验验证。 | [Collaborative AI agents for autonomous experimental research with solid-state quantum spins](http://arxiv.org/abs/2610.40589v1) |
 | [2026-10-30](/pulse/2026-10-30/) | 在多智能体受同伴施压泄密的场景中，利用生成前的模型内部激活线性探针，可在输出生成前即刻预判智能体是否即将妥协泄密。 | [Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In](http://arxiv.org/abs/2610.40588v1) |
 | [2026-10-29](/pulse/2026-10-29/) | 论文提出TeamGym环境，用于评估和强化学习训练大模型多智能体团队决策，量化揭示了通信与检索差距，并通过RL有效诱导出了协同行为。 | [TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information](http://arxiv.org/abs/2610.37571v1) |
