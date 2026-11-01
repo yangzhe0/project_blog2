@@ -1,11 +1,18 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-10-31T00:00:00+08:00
+pubDatetime: 2026-11-01T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
 
 每天自动生成的论文研判，全部在这里。原理与构建过程见《[ScholarPulse](/posts/260615_scholarpulse/)》。
+
+### 2026-11
+
+| 日期 | 总结摘要 | 标题 |
+| --- | --- | --- |
+| [2026-11-01](/pulse/2026-11-01/) | EpiCoach利用机理数字孪生与证据门控注册表，将可穿戴设备数据转化为可审计、可证伪的个体化贝叶斯训练实验设计。 | [The Athlete as a Scientist of One: Agentic Bayesian Experimental Design for Individualized Physiology from Consumer Wearables](http://arxiv.org/abs/2610.40370v1) |
+| [2026-11-01](/pulse/2026-11-01/) | 论文提出认知资源自分配框架 CORAL，通过让智能体自主保存关键信息检查点并重置杂乱上下文，有效解决了长程任务中的认知过载，同时大幅降低了推理成本。 | [Don't Lose the Thread: Empowering Long-Horizon LLM Agents with Cognitive Resource Self-Allocation](http://arxiv.org/abs/2610.40350v1) |
 
 ### 2026-10
 
