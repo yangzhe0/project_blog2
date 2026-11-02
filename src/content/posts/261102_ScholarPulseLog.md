@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-01T00:00:00+08:00
+pubDatetime: 2026-11-02T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-02](/pulse/2026-11-02/) | Flide 是一款面向智能体决策的高效精确推理引擎，在保证数学等价性的同时实现了高达 9.5 倍的推理加速。 | [Flide: Accelerating Decision Inference with Exact State Forking](http://arxiv.org/abs/2610.42148v1) |
+| [2026-11-02](/pulse/2026-11-02/) | Quantum 3xplorer (Q3) 是由领域科学家指导、AI 智能体从零构建的 AI 原生量子模拟引擎，仅用数周便实现了高性能且支持 GPU 扩展的端到端平面波 DFT 计算。 | [Quantum 3xplorer: AI-Native Engine for Next-Generation Quantum Materials Modeling](http://arxiv.org/abs/2610.42108v1) |
 | [2026-11-01](/pulse/2026-11-01/) | EpiCoach利用机理数字孪生与证据门控注册表，将可穿戴设备数据转化为可审计、可证伪的个体化贝叶斯训练实验设计。 | [The Athlete as a Scientist of One: Agentic Bayesian Experimental Design for Individualized Physiology from Consumer Wearables](http://arxiv.org/abs/2610.40370v1) |
 | [2026-11-01](/pulse/2026-11-01/) | 论文提出认知资源自分配框架 CORAL，通过让智能体自主保存关键信息检查点并重置杂乱上下文，有效解决了长程任务中的认知过载，同时大幅降低了推理成本。 | [Don't Lose the Thread: Empowering Long-Horizon LLM Agents with Cognitive Resource Self-Allocation](http://arxiv.org/abs/2610.40350v1) |
 
