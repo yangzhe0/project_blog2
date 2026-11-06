@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-05T00:00:00+08:00
+pubDatetime: 2026-11-06T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-06](/pulse/2026-11-06/) | SwarmEvolve 提出在潜空间推理并共享 KV cache 的群体演化框架，极大加速了科学程序发现与优化。 | [SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization](http://arxiv.org/abs/2611.08483v1) |
+| [2026-11-06](/pulse/2026-11-06/) | 针对信息物理智能体面临的带宽受限与异构时限挑战，本文提出实时隐空间通信框架 SCALE，通过跨帧词元复用与动态调度显著提升了任务表现与准时交付率。 | [SCALE: Real-Time Latent Communication for Cyber-Physical Agents](http://arxiv.org/abs/2611.08390v1) |
 | [2026-11-05](/pulse/2026-11-05/) | 该研究提出了受控上下文丰富化框架与“选择性鲁棒性”验证准则，以解决LLM社会智能体在保持语义的提示扰动下行为脆弱的验证难题。 | [A Framework for Context Enrichment and Selective Robustness in LLM Social Agents](http://arxiv.org/abs/2611.06914v1) |
 | [2026-11-05](/pulse/2026-11-05/) | FrontierPhysics 是首个评估 AI 智能体端到端物理研究能力的基准，测试显示现有前沿模型因缺乏严密推理与专家直觉，完成质量普遍偏低。 | [FrontierPhysics: Evaluating Agents for End-to-End Physics Research](http://arxiv.org/abs/2611.06910v1) |
 | [2026-11-04](/pulse/2026-11-04/) | PyRUA-DataFarm 利用 LLM 编码智能体在仿真中自动重建任务并结合视频渲染生成数据，能以更低成本替代人工遥操作，且策略在真实机器人上泛化性更强。 | [PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data](http://arxiv.org/abs/2611.05320v1) |
