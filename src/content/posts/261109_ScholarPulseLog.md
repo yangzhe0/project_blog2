@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-08T00:00:00+08:00
+pubDatetime: 2026-11-09T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-09](/pulse/2026-11-09/) | 本文提出结合 Lean 证明器与大模型智能体团队的框架，实现了超越经典模拟尺度、经形式化验证的量子算法自动化发现。 | [Discovering formally verified quantum programs with AI](http://arxiv.org/abs/2611.09822v1) |
+| [2026-11-09](/pulse/2026-11-09/) | 该研究提出了首个评估智能体轨迹中干预因果效应的理论框架，解决了部署期何时进行验证或纠偏等审计干预的决策难题。 | [Knowing When to Intervene: Causal Evaluation of AI Agents](http://arxiv.org/abs/2611.09792v1) |
 | [2026-11-08](/pulse/2026-11-08/) | 论文提出交互式基准 Multimodal-SEA，揭示主流多模态智能体面对多模态社会工程攻击均显脆弱，攻击成功率达 7.1% 至 34.5%。 | [Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks](http://arxiv.org/abs/2611.08281v1) |
 | [2026-11-08](/pulse/2026-11-08/) | 本综述系统梳理了从数字相干传输到智能运维的光网络数字孪生（ONDT）技术体系，并提出了基于保真度、动态性和可部署性的统一框架，助力自主光网络构建。 | [Optical Network Digital Twin: From Digital Coherent Transmission to Intelligent Network Operations](http://arxiv.org/abs/2611.08217v1) |
 | [2026-11-07](/pulse/2026-11-07/) | 针对AI智能体记忆压缩易破坏远端结构的问题，论文提出首个由远端理论界指导的局部感知量化方法（LAQ），在保持存储与检索机制不变的同时兼顾局部与全局保真度。 | [Enhancing Local and Global Structure in Compressed AI Agent Memory](http://arxiv.org/abs/2611.08341v1) |
