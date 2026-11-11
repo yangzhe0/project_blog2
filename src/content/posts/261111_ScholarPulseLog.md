@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-10T00:00:00+08:00
+pubDatetime: 2026-11-11T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-11](/pulse/2026-11-11/) | 针对大模型科学智能体否定单一假设后缺乏备选方向的问题，本文提出“对比发现”范式，通过评估互斥且完备的竞争解释集，在相同实验预算下显著提升了科学问题的解决率。 | [Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations](http://arxiv.org/abs/2611.14514v1) |
+| [2026-11-11](/pulse/2026-11-11/) | ReTrace 通过将 SOP 和少量 Agent 运行日志蒸馏为由代码控制流驱动的可执行工作流，在保持与 Agent 相当成功率的同时大幅降低了延迟与成本。 | [ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows](http://arxiv.org/abs/2611.14492v1) |
 | [2026-11-10](/pulse/2026-11-10/) | 论文提出评测基准 WorkflowArena，聚焦多智能体系统中大模型自主编排可执行工作流的能力，证实工作流组织本身是决定任务性能的关键因素。 | [WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems](http://arxiv.org/abs/2611.12856v1) |
 | [2026-11-10](/pulse/2026-11-10/) | Agentic-OPD 利用强化学习中废弃的历史检查点作为零成本教师池，通过在线策略蒸馏有效恢复智能体遗忘的解题能力。 | [Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks](http://arxiv.org/abs/2611.12799v1) |
 | [2026-11-09](/pulse/2026-11-09/) | 本文提出结合 Lean 证明器与大模型智能体团队的框架，实现了超越经典模拟尺度、经形式化验证的量子算法自动化发现。 | [Discovering formally verified quantum programs with AI](http://arxiv.org/abs/2611.09822v1) |
