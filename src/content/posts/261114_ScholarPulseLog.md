@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-13T00:00:00+08:00
+pubDatetime: 2026-11-14T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-14](/pulse/2026-11-14/) | CapLite 提出了一种无需模型生成保安 artifact 的提示注入防御方法，对于小型语言模型代理有效，在 AgentDojo 上的攻击剧集中无成功攻击，且效用与现有方法相当但 token 消耗更少。 | [CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts](http://arxiv.org/abs/2611.17115v1) |
+| [2026-11-14](/pulse/2026-11-14/) | 随着自主AI智能体在持久群体中互动，其集体能力和对齐不仅取决于个体模型，还取决于治理互动的制度，制度设计须成为AI研究独立焦点。 | [Designing Institutions for Autonomous AI](http://arxiv.org/abs/2611.17114v1) |
 | [2026-11-13](/pulse/2026-11-13/) | LLM 代理在调试数据库时，由于缺乏对生产状态的实时访问，导致在并发依赖的事故中反复出现宣布原因、部署修复并撤回的现象，核心瓶颈在于需要提供更丰富的生产数据访问而非仅依赖推理能力。 | [Where LLM Agents Get Stuck Debugging Databases: Access More Than Reasoning](http://arxiv.org/abs/2611.17304v1) |
 | [2026-11-13](/pulse/2026-11-13/) | 基于 arXiv 元数据收录，具体贡献需要阅读原文后确认。 | [LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds](http://arxiv.org/abs/2611.17267v1) |
 | [2026-11-12](/pulse/2026-11-12/) | LLM代理在长时域、验证丰富的环境中日益增多，但当前的自我改进机制常将基于剧集的教训直接写入记忆，使局部成功成为不可靠的可重用安全知识信号。本文提出Falsification-Gated Self-Evolution (FGSE)框架，将候选教训表示为结构化假设，仅在临时状态下通过目标转移、伪造和归档回归探针测试，并根据增益与风险决定提交、细化或拒绝，从而支持更可靠的长期适应。 | [When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents](http://arxiv.org/abs/2611.14326v1) |
