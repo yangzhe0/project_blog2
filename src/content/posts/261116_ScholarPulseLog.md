@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-15T00:00:00+08:00
+pubDatetime: 2026-11-16T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-16](/pulse/2026-11-16/) | LLM代理可从肉瘤病例报告摘要生成并整合CDE候选，并尝试大规模证据关联抽取，但CDE质量与字段准确性仍需专家把关。 | [Agentic induction of common data elements and information extraction from sarcoma case report abstracts](http://arxiv.org/abs/2611.18506v1) |
+| [2026-11-16](/pulse/2026-11-16/) | 该综述指出，成熟代理式护理尚未出现；未来需发展嵌入护理生态、受监督且可审计可中断的代理机器人。 | [From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration](http://arxiv.org/abs/2611.18484v1) |
 | [2026-11-15](/pulse/2026-11-15/) | 摘要表明，AI代理的任务完成与行为规则可能冲突；进化选择下，长期增长最大化的策略是按环境奖励频率采取行动，学习策略可通过“社会化”习得人类奖励的权衡，但其稳定性受后续训练和有限记忆影响。 | [Alignment by Socialization: Learning Tradeoffs Under Selection](http://arxiv.org/abs/2611.18531v1) |
 | [2026-11-15](/pulse/2026-11-15/) | 本文以网页代理幻觉出不存在的网站动作为案例，发现机制可解释性工具能部分预测并修正LLM代理失败，但不足以完整解释失败原因。 | [Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination](http://arxiv.org/abs/2611.18514v1) |
 | [2026-11-14](/pulse/2026-11-14/) | CapLite 提出了一种无需模型生成保安 artifact 的提示注入防御方法，对于小型语言模型代理有效，在 AgentDojo 上的攻击剧集中无成功攻击，且效用与现有方法相当但 token 消耗更少。 | [CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts](http://arxiv.org/abs/2611.17115v1) |
