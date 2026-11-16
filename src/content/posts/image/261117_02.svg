@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 516" role="img" aria-labelledby="bearing-title bearing-desc">
+<title id="bearing-title">轴承诊断的两条建模路线</title>
+<desc id="bearing-desc">振动信号统一采样率后，分别进入特征与LightGBM路线，以及角域时频表示与CNN探索路线。</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#506579" stroke-width="1.5"/></marker></defs>
+<rect width="760" height="516" rx="18" fill="#f5f7fa"/>
+<g font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+<text x="38" y="51" fill="#183449" font-size="26" font-weight="700">轴承振动信号的两条处理路线</text>
+<text x="38" y="83" fill="#53687a" font-size="17">2025 数模 · 来源索引连接原始文件与各阶段产物</text>
+<rect x="38" y="112" width="684" height="92" rx="10" fill="#fff" stroke="#b5c6d3"/>
+<text x="380" y="149" text-anchor="middle" font-size="24" font-weight="700" fill="#183449">源域与目标域振动信号</text>
+<text x="380" y="182" text-anchor="middle" font-size="21" fill="#405c70">读取测点、采样率和转速，统一至 32 kHz</text>
+<path d="M380 204V227H203V251M380 227H557V251" fill="none" stroke="#506579" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M203 227V251" fill="none" stroke="#506579" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="38" y="254" width="330" height="208" rx="10" fill="#e8f3f0" stroke="#7ba799"/>
+<rect x="392" y="254" width="330" height="208" rx="10" fill="#edf0f8" stroke="#9caacd"/>
+<text x="64" y="294" fill="#155745" font-size="26" font-weight="700">特征路线</text>
+<text x="418" y="294" fill="#334878" font-size="26" font-weight="700">CNN 探索</text>
+<g font-size="22" fill="#233f52">
+<text x="64" y="337">分段、滤波与归一化</text><text x="64" y="371">多域特征 → LightGBM</text><text x="64" y="405">段级概率 → 投票汇总</text><text x="64" y="439">保存文件级诊断结果</text>
+<text x="418" y="337">角域同步 → STFT</text><text x="418" y="371">时频表示 → 二维卷积</text><text x="418" y="405">源域分类损失</text><text x="418" y="439">加两域特征协方差对齐</text>
+</g><text x="38" y="493" fill="#53687a" font-size="17">图示按归档代码整理；训练与推理的复现问题见正文。</text>
+</g></svg>

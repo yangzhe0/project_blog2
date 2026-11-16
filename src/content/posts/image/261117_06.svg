@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 730" role="img" aria-labelledby="fusion-title fusion-desc">
+<title id="fusion-title">LocalFusion局部缺失预测流程</title>
+<desc id="fusion-desc">文本、语音和视觉各自编码局部上下文，经过同位置跨模态交互、正文位置池化和门控，输出情感极性与强度。</desc>
+<defs><marker id="f-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L7 4L0 8" fill="none" stroke="#627087" stroke-width="1.5"/></marker></defs>
+<rect width="720" height="730" rx="18" fill="#f6f7fb"/>
+<g font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+<text x="36" y="48" font-size="28" font-weight="700" fill="#26374c">LocalFusion 怎样处理局部缺口</text>
+<text x="36" y="79" font-size="18" fill="#58677d">按论文结构重绘 · Q2 使用题目提供的对齐输入</text>
+<g fill="#fff" stroke="#a7b5c8"><rect x="36" y="110" width="198" height="96" rx="8"/><rect x="261" y="110" width="198" height="96" rx="8"/><rect x="486" y="110" width="198" height="96" rx="8"/></g>
+<g font-size="24" font-weight="700" fill="#26374c" text-anchor="middle"><text x="135" y="149">文本</text><text x="360" y="149">语音</text><text x="585" y="149">视觉</text></g>
+<g font-size="21" fill="#58677d" text-anchor="middle"><text x="135" y="182">冻结 BERT</text><text x="360" y="182">74 维</text><text x="585" y="182">35 维</text></g>
+<g stroke="#627087" stroke-width="2" fill="none" marker-end="url(#f-arrow)"><path d="M135 207V237"/><path d="M360 207V237"/><path d="M585 207V237"/></g>
+<rect x="36" y="240" width="648" height="100" rx="8" fill="#e9f1f8" stroke="#9bb1c9"/>
+<text x="360" y="279" text-anchor="middle" font-size="25" font-weight="700" fill="#26374c">各模态投影到 64 维，编码局部上下文</text>
+<text x="360" y="314" text-anchor="middle" font-size="21" fill="#58677d">状态与位置嵌入 + 局部卷积</text>
+<path d="M360 341V371" fill="none" stroke="#627087" stroke-width="2" marker-end="url(#f-arrow)"/>
+<rect x="36" y="374" width="648" height="94" rx="8" fill="#eeebf8" stroke="#afa0cf"/>
+<text x="360" y="412" text-anchor="middle" font-size="25" font-weight="700" fill="#42366c">同位置跨模态注意力</text>
+<text x="360" y="446" text-anchor="middle" font-size="21" fill="#58677d">读取可观测 key，交换三路可见信息</text>
+<path d="M360 469V499" fill="none" stroke="#627087" stroke-width="2" marker-end="url(#f-arrow)"/>
+<rect x="36" y="502" width="648" height="94" rx="8" fill="#e9f3ef" stroke="#92b5a7"/>
+<text x="360" y="540" text-anchor="middle" font-size="25" font-weight="700" fill="#245542">正文位置池化 + 样本级门控</text>
+<text x="360" y="574" text-anchor="middle" font-size="21" fill="#58677d">保留缺口上下文，屏蔽尾部 padding</text>
+<path d="M360 597V618H195V643M360 618H525V643" fill="none" stroke="#627087" stroke-width="2" marker-end="url(#f-arrow)"/>
+<path d="M195 618V643" fill="none" stroke="#627087" stroke-width="2" marker-end="url(#f-arrow)"/>
+<rect x="36" y="646" width="318" height="52" rx="8" fill="#fff" stroke="#a7b5c8"/><rect x="366" y="646" width="318" height="52" rx="8" fill="#fff" stroke="#a7b5c8"/>
+<text x="195" y="680" text-anchor="middle" font-size="24" fill="#26374c">负向 / 中性 / 正向</text><text x="525" y="680" text-anchor="middle" font-size="24" fill="#26374c">连续强度 [-3, 3]</text>
+</g></svg>
