@@ -30,3 +30,9 @@ Desktop.ini
 # Keep the blog maintenance skill; ignore other locally installed skills
 .agents/skills/*
 !.agents/skills/project-blog/
+
+# Shared resources for locally installed Punk skills
+.agents/styles/
+
+# Local cover prompts and source renders; published assets live with posts
+punk-assets/
