@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-16T00:00:00+08:00
+pubDatetime: 2026-11-17T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-17](/pulse/2026-11-17/) | 论文指出，MCP中用于发现和选择工具的工具元数据并不必然绑定已验证的提供商身份；攻击者仅通过运行广告特定元数据的MCP服务器，即可诱导请求错绑到其工具。 | [When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents](http://arxiv.org/abs/2611.21577v1) |
+| [2026-11-17](/pulse/2026-11-17/) | 文本相似度护栏难区分注入效果保留与合法引用/模板复用，且评估与策略有盲区，应转向行为和政策导向评估。 | [Safe Resemblance, Silent Propagation: Limits of Text-Similarity Guardrails for AI Agent Safety](http://arxiv.org/abs/2611.21520v1) |
 | [2026-11-16](/pulse/2026-11-16/) | LLM代理可从肉瘤病例报告摘要生成并整合CDE候选，并尝试大规模证据关联抽取，但CDE质量与字段准确性仍需专家把关。 | [Agentic induction of common data elements and information extraction from sarcoma case report abstracts](http://arxiv.org/abs/2611.18506v1) |
 | [2026-11-16](/pulse/2026-11-16/) | 该综述指出，成熟代理式护理尚未出现；未来需发展嵌入护理生态、受监督且可审计可中断的代理机器人。 | [From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration](http://arxiv.org/abs/2611.18484v1) |
 | [2026-11-15](/pulse/2026-11-15/) | 摘要表明，AI代理的任务完成与行为规则可能冲突；进化选择下，长期增长最大化的策略是按环境奖励频率采取行动，学习策略可通过“社会化”习得人类奖励的权衡，但其稳定性受后续训练和有限记忆影响。 | [Alignment by Socialization: Learning Tradeoffs Under Selection](http://arxiv.org/abs/2611.18531v1) |
