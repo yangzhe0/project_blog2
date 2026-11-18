@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-17T00:00:00+08:00
+pubDatetime: 2026-11-18T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-18](/pulse/2026-11-18/) | 足够强的LLM代理在仅获基本原语、资源和总体自我改进目标时，能自主构建上下文自我学习算法，并在游戏中实现可迁移的自我改进。 | [Do LLM Agents Still Need to Be Told How to Self-Improve?](http://arxiv.org/abs/2611.23219v1) |
+| [2026-11-18](/pulse/2026-11-18/) | ATI 是基于 PKI、零信任与远程证明的框架无关安全架构，用联邦 AgentCA、证书与配置校验及三项策略检查，保障跨组织 AI Agent 的身份、完整性与授权。 | [Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents](http://arxiv.org/abs/2611.23202v1) |
 | [2026-11-17](/pulse/2026-11-17/) | 论文指出，MCP中用于发现和选择工具的工具元数据并不必然绑定已验证的提供商身份；攻击者仅通过运行广告特定元数据的MCP服务器，即可诱导请求错绑到其工具。 | [When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents](http://arxiv.org/abs/2611.21577v1) |
 | [2026-11-17](/pulse/2026-11-17/) | 文本相似度护栏难区分注入效果保留与合法引用/模板复用，且评估与策略有盲区，应转向行为和政策导向评估。 | [Safe Resemblance, Silent Propagation: Limits of Text-Similarity Guardrails for AI Agent Safety](http://arxiv.org/abs/2611.21520v1) |
 | [2026-11-16](/pulse/2026-11-16/) | LLM代理可从肉瘤病例报告摘要生成并整合CDE候选，并尝试大规模证据关联抽取，但CDE质量与字段准确性仍需专家把关。 | [Agentic induction of common data elements and information extraction from sarcoma case report abstracts](http://arxiv.org/abs/2611.18506v1) |
