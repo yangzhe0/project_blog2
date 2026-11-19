@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-18T00:00:00+08:00
+pubDatetime: 2026-11-19T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-19](/pulse/2026-11-19/) | 随着AI能力增长，人-AI互惠不足以保障人类境况；若人类失去对AI的杠杆且AI未对齐，互惠关系将不稳定。 | [Human-AI Mutualism Is Unstable under Capability Asymmetry](https://arxiv.org/abs/2611.23322) |
+| [2026-11-19](/pulse/2026-11-19/) | 训练模型以第三人称观察者回答关于助手的可验证问题，是监督奖励黑客、欺骗和谄媚等难察觉行为的可行路径。 | [Training Language Models for Introspective Oversight](https://arxiv.org/abs/2611.23365) |
 | [2026-11-18](/pulse/2026-11-18/) | 足够强的LLM代理在仅获基本原语、资源和总体自我改进目标时，能自主构建上下文自我学习算法，并在游戏中实现可迁移的自我改进。 | [Do LLM Agents Still Need to Be Told How to Self-Improve?](http://arxiv.org/abs/2611.23219v1) |
 | [2026-11-18](/pulse/2026-11-18/) | ATI 是基于 PKI、零信任与远程证明的框架无关安全架构，用联邦 AgentCA、证书与配置校验及三项策略检查，保障跨组织 AI Agent 的身份、完整性与授权。 | [Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents](http://arxiv.org/abs/2611.23202v1) |
 | [2026-11-17](/pulse/2026-11-17/) | 论文指出，MCP中用于发现和选择工具的工具元数据并不必然绑定已验证的提供商身份；攻击者仅通过运行广告特定元数据的MCP服务器，即可诱导请求错绑到其工具。 | [When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents](http://arxiv.org/abs/2611.21577v1) |
