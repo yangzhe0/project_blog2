@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-20T00:00:00+08:00
+pubDatetime: 2026-11-21T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-21](/pulse/2026-11-21/) | MiracleGro 是无需人工干预的 agentic AI 系统，可在 BOOM 乱序核上自动分析周期级 RTL 与综合结果、定位瓶颈并实现 RTL 改进，显著提升性能与频率。 | [From Seed to BLOOM: Autonomously Growing a Better Out-of-Order Core](http://arxiv.org/abs/2611.26517v1) |
+| [2026-11-21](/pulse/2026-11-21/) | AutoMaster用自然语言技能干预教师轨迹再微调目标模型，在固定教师、任务池、训练集规模和SFT配方下优于Vanilla SFT。 | [AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher](http://arxiv.org/abs/2611.26510v1) |
 | [2026-11-20](/pulse/2026-11-20/) | PlayCraft用视觉智能体游玩游戏，并据其体验自动修订游戏以增强掌握感；多数游戏学习增益更大、斜率更陡，各智能设置下宏平均优于基线。 | [PlayCraft: Designing Engaging Games from Agent Play Experience](http://arxiv.org/abs/2611.26624v1) |
 | [2026-11-20](/pulse/2026-11-20/) | 该系统在共享与每模型资源约束下，用LLM代理和确定性工具优化车队级排序特征，生产与A/B均见小幅收益。 | [Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models](http://arxiv.org/abs/2611.26531v1) |
 | [2026-11-19](/pulse/2026-11-19/) | 随着AI能力增长，人-AI互惠不足以保障人类境况；若人类失去对AI的杠杆且AI未对齐，互惠关系将不稳定。 | [Human-AI Mutualism Is Unstable under Capability Asymmetry](https://arxiv.org/abs/2611.23322) |
