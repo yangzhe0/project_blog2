@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-21T00:00:00+08:00
+pubDatetime: 2026-11-22T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-22](/pulse/2026-11-22/) | JARVIS是电力电子具身AI代理，可自主闭合电路板设计—制造—测试—学习闭环；60 Hz陷波滤波器演示无人干预首次运行2 h 39 min，衰减50.6 dB。 | [JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own](http://arxiv.org/abs/2611.26503v1) |
+| [2026-11-22](/pulse/2026-11-22/) | LLM agent 的主要瓶颈可能不是算力，而是等待模型时被独占保留的运行时环境；AgentCore 为每会话保留独立 VM，服务会先耗尽环境而非处理器核心。 | [Held While Waiting: What LLM Agent Sessions Reserve on Serverless and Agent Runtimes](http://arxiv.org/abs/2611.26480v1) |
 | [2026-11-21](/pulse/2026-11-21/) | MiracleGro 是无需人工干预的 agentic AI 系统，可在 BOOM 乱序核上自动分析周期级 RTL 与综合结果、定位瓶颈并实现 RTL 改进，显著提升性能与频率。 | [From Seed to BLOOM: Autonomously Growing a Better Out-of-Order Core](http://arxiv.org/abs/2611.26517v1) |
 | [2026-11-21](/pulse/2026-11-21/) | AutoMaster用自然语言技能干预教师轨迹再微调目标模型，在固定教师、任务池、训练集规模和SFT配方下优于Vanilla SFT。 | [AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher](http://arxiv.org/abs/2611.26510v1) |
 | [2026-11-20](/pulse/2026-11-20/) | PlayCraft用视觉智能体游玩游戏，并据其体验自动修订游戏以增强掌握感；多数游戏学习增益更大、斜率更陡，各智能设置下宏平均优于基线。 | [PlayCraft: Designing Engaging Games from Agent Play Experience](http://arxiv.org/abs/2611.26624v1) |
