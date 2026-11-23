@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-22T00:00:00+08:00
+pubDatetime: 2026-11-23T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-23](/pulse/2026-11-23/) | 头脑风暴实验中，增加第二个AI伙伴虽提高共享板发帖量，却显著减少人类作者想法；单AI下“平均校准”优势在双AI时消失，说明AI团队规模与形成方式会重塑人类贡献，单代理结论不能直接推广。 | [Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams](https://arxiv.org/abs/2611.26663) |
+| [2026-11-23](/pulse/2026-11-23/) | 论文提出“模拟生成”的STIX 2.1 CTI知识图谱构造范式，使一致性成为构造属性，并警示常见图特征验证器可能无信息量。 | [Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation](https://arxiv.org/abs/2611.26717) |
 | [2026-11-22](/pulse/2026-11-22/) | JARVIS是电力电子具身AI代理，可自主闭合电路板设计—制造—测试—学习闭环；60 Hz陷波滤波器演示无人干预首次运行2 h 39 min，衰减50.6 dB。 | [JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own](http://arxiv.org/abs/2611.26503v1) |
 | [2026-11-22](/pulse/2026-11-22/) | LLM agent 的主要瓶颈可能不是算力，而是等待模型时被独占保留的运行时环境；AgentCore 为每会话保留独立 VM，服务会先耗尽环境而非处理器核心。 | [Held While Waiting: What LLM Agent Sessions Reserve on Serverless and Agent Runtimes](http://arxiv.org/abs/2611.26480v1) |
 | [2026-11-21](/pulse/2026-11-21/) | MiracleGro 是无需人工干预的 agentic AI 系统，可在 BOOM 乱序核上自动分析周期级 RTL 与综合结果、定位瓶颈并实现 RTL 改进，显著提升性能与频率。 | [From Seed to BLOOM: Autonomously Growing a Better Out-of-Order Core](http://arxiv.org/abs/2611.26517v1) |
