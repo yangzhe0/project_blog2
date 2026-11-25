@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-24T00:00:00+08:00
+pubDatetime: 2026-11-25T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-25](/pulse/2026-11-25/) | AIChipBench 显示，LLM 智能体设计 AI 加速器时难点在跨解码步存储状态，基准须用开发用例外的最终测试检验。 | [AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design](http://arxiv.org/abs/2611.33093v1) |
+| [2026-11-25](/pulse/2026-11-25/) | 该故障注入研究发现，LLM评审者识别临床危险动作依赖证据，仅看最终答案易误报，完整轨迹和EHR响应可提升判别。 | [Can LLM Judges Catch Unsafe Clinical Actions? A Fault-Injection Study](http://arxiv.org/abs/2611.33012v1) |
 | [2026-11-24](/pulse/2026-11-24/) | TowerBridge通过轻度衰减双塔在困难负样本上更一致的方向，在基本保留模态间隙时提升检索，并固化为闭式权重编辑。 | [TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Programming](http://arxiv.org/abs/2611.31233v1) |
 | [2026-11-24](/pulse/2026-11-24/) | TideSand 是面向性能敏感 LLM Agent 的沙箱系统，通过智能多路复用资源，在保持工具调用保真度的同时提升吞吐并降低评估误差。 | [TideSand: Performance-Accurate Sandbox Multiplexing for LLM Agents](http://arxiv.org/abs/2611.31118v1) |
 | [2026-11-23](/pulse/2026-11-23/) | 头脑风暴实验中，增加第二个AI伙伴虽提高共享板发帖量，却显著减少人类作者想法；单AI下“平均校准”优势在双AI时消失，说明AI团队规模与形成方式会重塑人类贡献，单代理结论不能直接推广。 | [Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams](https://arxiv.org/abs/2611.26663) |
