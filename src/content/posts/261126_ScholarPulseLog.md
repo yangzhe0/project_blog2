@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-25T00:00:00+08:00
+pubDatetime: 2026-11-26T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-26](/pulse/2026-11-26/) | 该案例显示，监控器假阴性率高度依赖攻击策略的生成方法与优化水平，仅用基础攻击方法评估可能造成监控器很强的虚假信心。 | [Attack Policy Selection can Mislead Monitor Evaluators](http://arxiv.org/abs/2611.34934v1) |
+| [2026-11-26](/pulse/2026-11-26/) | Agentic LongLive 用异步智能体记忆提升长视频中人物、物体与场景一致性，且不拖慢实时生成。 | [Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation](http://arxiv.org/abs/2611.34907v1) |
 | [2026-11-25](/pulse/2026-11-25/) | AIChipBench 显示，LLM 智能体设计 AI 加速器时难点在跨解码步存储状态，基准须用开发用例外的最终测试检验。 | [AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design](http://arxiv.org/abs/2611.33093v1) |
 | [2026-11-25](/pulse/2026-11-25/) | 该故障注入研究发现，LLM评审者识别临床危险动作依赖证据，仅看最终答案易误报，完整轨迹和EHR响应可提升判别。 | [Can LLM Judges Catch Unsafe Clinical Actions? A Fault-Injection Study](http://arxiv.org/abs/2611.33012v1) |
 | [2026-11-24](/pulse/2026-11-24/) | TowerBridge通过轻度衰减双塔在困难负样本上更一致的方向，在基本保留模态间隙时提升检索，并固化为闭式权重编辑。 | [TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Programming](http://arxiv.org/abs/2611.31233v1) |
