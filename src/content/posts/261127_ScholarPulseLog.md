@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-26T00:00:00+08:00
+pubDatetime: 2026-11-27T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-27](/pulse/2026-11-27/) | TASK memory 用文本笔记、激活引导与知识编辑共享模型内地址，针对“使用时记忆幻觉”在冻结模型上显著降低忽略、误用和版本混淆。 | [TASK Memory: Beyond Text-Only Memory with Activation Steering and Knowledge Editing against Memory Hallucination](http://arxiv.org/abs/2611.34762v1) |
+| [2026-11-27](/pulse/2026-11-27/) | AutoRSP 是一个可自动设计雷达感知流水线的 AI 智能体，能用分层子智能体和真实反馈生成可执行方案，性能达到或超过人类专家与闭源智能体。 | [AutoRSP: An AI Agent for Radar Sensing Pipeline Design](http://arxiv.org/abs/2611.34754v1) |
 | [2026-11-26](/pulse/2026-11-26/) | 该案例显示，监控器假阴性率高度依赖攻击策略的生成方法与优化水平，仅用基础攻击方法评估可能造成监控器很强的虚假信心。 | [Attack Policy Selection can Mislead Monitor Evaluators](http://arxiv.org/abs/2611.34934v1) |
 | [2026-11-26](/pulse/2026-11-26/) | Agentic LongLive 用异步智能体记忆提升长视频中人物、物体与场景一致性，且不拖慢实时生成。 | [Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation](http://arxiv.org/abs/2611.34907v1) |
 | [2026-11-25](/pulse/2026-11-25/) | AIChipBench 显示，LLM 智能体设计 AI 加速器时难点在跨解码步存储状态，基准须用开发用例外的最终测试检验。 | [AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design](http://arxiv.org/abs/2611.33093v1) |
