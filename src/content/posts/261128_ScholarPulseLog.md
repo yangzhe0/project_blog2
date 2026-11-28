@@ -1,6 +1,6 @@
 ---
 title: 'ScholarPulse 运行实录'
-pubDatetime: 2026-11-27T00:00:00+08:00
+pubDatetime: 2026-11-28T00:00:00+08:00
 description: '学术监测的完整产出索引：每日论文速览、深度研判与原始摘要。'
 tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 ---
@@ -11,6 +11,8 @@ tags: [ScholarPulse, 学术监测, AI-Agent, 索引]
 
 | 日期 | 总结摘要 | 标题 |
 | --- | --- | --- |
+| [2026-11-28](/pulse/2026-11-28/) | SOLVE 是一种训练无关、通用且高效的机器人操作智能体策略，通过稀疏有序关键位姿实现低成本长程与精细操作。 | [SOLVE: Sparse, Ordered Keyposes Make LLM Agents Versatile and Efficient Robot Manipulator](http://arxiv.org/abs/2611.34750v1) |
+| [2026-11-28](/pulse/2026-11-28/) | 信息过载不改善决策也不缩小阶层差距；个性化建议可提升低SES录取并缩小差距，但成本转向学费与专业偏好。 | [Decision and Support Mechanisms under Platform Information Overload: A Generative-Agent Experiment on College Application](http://arxiv.org/abs/2611.34709v1) |
 | [2026-11-27](/pulse/2026-11-27/) | TASK memory 用文本笔记、激活引导与知识编辑共享模型内地址，针对“使用时记忆幻觉”在冻结模型上显著降低忽略、误用和版本混淆。 | [TASK Memory: Beyond Text-Only Memory with Activation Steering and Knowledge Editing against Memory Hallucination](http://arxiv.org/abs/2611.34762v1) |
 | [2026-11-27](/pulse/2026-11-27/) | AutoRSP 是一个可自动设计雷达感知流水线的 AI 智能体，能用分层子智能体和真实反馈生成可执行方案，性能达到或超过人类专家与闭源智能体。 | [AutoRSP: An AI Agent for Radar Sensing Pipeline Design](http://arxiv.org/abs/2611.34754v1) |
 | [2026-11-26](/pulse/2026-11-26/) | 该案例显示，监控器假阴性率高度依赖攻击策略的生成方法与优化水平，仅用基础攻击方法评估可能造成监控器很强的虚假信心。 | [Attack Policy Selection can Mislead Monitor Evaluators](http://arxiv.org/abs/2611.34934v1) |
